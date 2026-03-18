@@ -1,0 +1,32 @@
+---
+permalink: sm-hardware/show-or-hide-component-status.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, show, hide, component, status, 
+summary: 드라이브, 컨트롤러, 팬 및 전원 공급 장치의 상태 설명을 표시할 수 있습니다. 
+---
+= SANtricity System Manager에서 구성 요소 상태 표시 또는 숨기기
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+드라이브, 컨트롤러, 팬 및 전원 공급 장치의 상태 설명을 표시할 수 있습니다.
+
+.단계
+. * Hardware * 를 선택합니다.
+. 뒷면 또는 앞면 구성 요소를 보려면 다음을 수행합니다.
++
+** 컨트롤러 및 전원/팬 캐니스터 구성 요소를 보고 싶지만 드라이브가 표시되는 경우 *Controllers & Components* 탭을 클릭하십시오.
+** 드라이브를 보려고 하지만 컨트롤러 및 전원/팬 캐니스터 구성 요소가 표시되는 경우 *드라이브* 탭을 클릭하십시오.
+
+
+. 팝업 상태 설명을 표시하거나 숨기려면:
++
+** 상태 아이콘에 대한 팝업 설명을 보려면 셸프 뷰의 오른쪽 상단에 있는 *상태 아이콘 세부 정보 표시*를 클릭하세요(확인란 선택).
+** 팝업 설명을 숨기려면 *상태 아이콘 세부 정보 표시*를 다시 클릭하십시오(확인란 선택 취소).
+
+
+. 전체 상태 세부 정보를 보려면 선반 보기에서 구성 요소를 선택한 다음 *설정 보기*를 선택하십시오.
+. 색상으로 구분된 구성 요소에 대한 설명을 보려면 * 범례 * 를 선택하십시오.
+

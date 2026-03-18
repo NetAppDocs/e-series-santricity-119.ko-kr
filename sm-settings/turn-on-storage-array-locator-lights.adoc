@@ -1,0 +1,27 @@
+---
+permalink: sm-settings/turn-on-storage-array-locator-lights.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, locator, lights, 
+summary: '캐비닛에서 스토리지 어레이의 물리적 위치를 찾으려면 위치 표시기(LED) 표시등을 켤 수 있습니다.' 
+---
+= SANtricity System Manager에서 스토리지 어레이 위치 표시등을 켜십시오
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+캐비닛에서 스토리지 어레이의 물리적 위치를 찾으려면 위치 표시기(LED) 표시등을 켤 수 있습니다.
+
+.단계
+. 메뉴:Settings[System]를 선택합니다.
+. *일반*에서 *스토리지 배열 로케이터 표시등 켜기*를 클릭합니다.
++
+스토리지 어레이 위치 표시등 켜기 대화 상자가 열리고 해당 스토리지 어레이의 위치 표시등이 켜집니다.
+
+. 스토리지 어레이의 위치를 확인했으면 대화 상자로 돌아가서 *끄기*를 선택하십시오.
+
+
+.결과
+위치 표시등이 꺼지고 대화 상자가 닫힙니다.

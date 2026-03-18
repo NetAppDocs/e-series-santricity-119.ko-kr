@@ -1,0 +1,37 @@
+---
+permalink: sm-settings/configure-login-banner.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, login, banner, 
+summary: 사용자가 SANtricity System Manager에서 세션을 설정하기 전에 표시되는 로그인 배너를 생성할 수 있습니다. 배너에는 권고 사항 및 동의 메시지가 포함될 수 있습니다. 
+---
+= SANtricity System Manager에서 로그인 배너를 구성합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+사용자가 SANtricity System Manager에서 세션을 설정하기 전에 표시되는 로그인 배너를 생성할 수 있습니다. 배너에는 권고 사항 및 동의 메시지가 포함될 수 있습니다.
+
+.이 작업 정보
+배너를 만들면 로그인 화면 앞에 대화 상자로 표시됩니다.
+
+.단계
+. 메뉴:Settings[System]를 선택합니다.
+. 일반 섹션에서 *로그인 배너 구성*을 선택합니다.
++
+로그인 배너 구성 대화 상자가 열립니다.
+
+. 로그인 배너에 표시할 텍스트를 입력합니다.
++
+[NOTE]
+====
+서식 지정을 위해 HTML이나 기타 마크업 태그를 사용하지 마십시오.
+
+====
+. *저장*을 클릭합니다.
+
+
+.결과
+다음에 사용자가 System Manager에 로그인할 때 해당 텍스트가 대화 상자에 표시됩니다. 사용자는 로그인 화면으로 계속 진행하려면 *OK*를 클릭해야 합니다.

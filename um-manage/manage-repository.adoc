@@ -1,0 +1,58 @@
+---
+permalink: um-manage/manage-repository.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, manage, software, repository 
+summary: 소프트웨어 리포지토리에는 Web Services Proxy와 관련된 모든 소프트웨어 파일이 나열됩니다. 
+---
+= Unified Manager에서 SANtricity 소프트웨어 저장소 관리
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+소프트웨어 리포지토리에는 Web Services Proxy와 관련된 모든 소프트웨어 파일이 나열됩니다.
+
+사용하려는 파일이 표시되지 않으면 소프트웨어 저장소 관리 옵션을 사용하여 Web Services Proxy 및 Unified Manager가 실행 중인 호스트 시스템으로 하나 이상의 SANtricity OS 파일을 가져올 수 있습니다. 또한 소프트웨어 저장소에서 사용 가능한 하나 이상의 SANtricity OS 파일을 삭제하도록 선택할 수도 있습니다.
+
+.시작하기 전에
+SANtricity OS 파일을 추가하는 경우 OS 파일을 로컬 시스템에서 사용할 수 있는지 확인하십시오.
+
+.단계
+. 메인 화면에서 *관리*를 선택한 다음 menu:Upgrade Center[Manage Software Repository]를 선택합니다.
++
+소프트웨어 저장소 관리 대화 상자가 나타납니다.
+
+. 다음 작업 중 하나를 수행합니다.
++
+[cols="25h,~"]
+|===
+| 옵션 | 이렇게 하세요.... 
+
+
+ a| 
+가져오기
+ a| 
+.. *가져오기*를 클릭합니다.
+.. *찾아보기*를 클릭한 다음 추가하려는 OS 파일이 있는 위치로 이동합니다.
++
+OS 파일의 파일 이름은 `N2800-830000-000.dlp`과 유사합니다.
+
+.. 추가할 OS 파일을 하나 이상 선택한 다음 * 가져오기 * 를 클릭합니다.
+
+
+
+
+ a| 
+삭제
+ a| 
+.. 소프트웨어 리포지토리에서 제거할 OS 파일을 하나 이상 선택하십시오.
+.. *삭제*를 클릭합니다.
+
+
+|===
+
+
+.결과
+가져오기를 선택한 경우 파일이 업로드되어 유효성 검사를 거칩니다. 삭제를 선택한 경우 파일이 소프트웨어 저장소에서 제거됩니다.

@@ -1,0 +1,35 @@
+---
+permalink: sm-support/collect-i-o-path-statistics.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, collect, i/o path, statistics 
+summary: I/O 경로 통계 파일을 저장하여 기술 지원 부서에 분석을 위해 보낼 수 있습니다. 
+---
+= SANtricity System Manager에서 I/O 경로 통계를 수집합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+I/O 경로 통계 파일을 저장하여 기술 지원 부서에 분석을 위해 보낼 수 있습니다.
+
+.이 작업 정보
+기술 지원 부서에서는 I/O 경로 통계를 사용하여 성능 문제를 진단합니다. 애플리케이션 성능 문제는 메모리 사용률, CPU 사용률, 네트워크 지연 시간, I/O 지연 시간 또는 기타 문제로 인해 발생할 수 있습니다. I/O 경로 통계는 지원 데이터 수집 중에 자동으로 수집되거나 수동으로 수집할 수 있습니다. 또한 AutoSupport를 설정한 경우 I/O 경로 통계가 자동으로 수집되어 기술 지원 부서로 전송됩니다.
+
+I/O 경로 통계를 수집할 것인지 확인한 후 I/O 경로 통계에 대한 카운터가 재설정됩니다. 이후에 작업을 취소하더라도 카운터는 재설정됩니다. 또한 컨트롤러가 재설정(재부팅)될 때도 카운터가 재설정됩니다.
+
+[NOTE]
+====
+기술 지원 부서에서 지시한 경우에만 이 작업을 수행하십시오.
+
+====
+.단계
+. 메뉴:Support[Support Center > Diagnostics] 탭을 선택합니다.
+. *I/O 경로 통계 수집*을 선택합니다.
+.  `collect`를 입력하여 작업을 수행할 것인지 확인한 다음 *수집*을 클릭하십시오.
++
+파일은 브라우저의 Downloads 폴더에 파일 이름 `io-path-statistics.7z`으로 저장됩니다.
+
+. 기술 지원 부서에서 제공하는 지침에 따라 파일을 보내십시오.
+

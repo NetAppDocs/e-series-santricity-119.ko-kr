@@ -1,0 +1,35 @@
+---
+permalink: sm-support/enable-autosupport-maintenance-window.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, enable, autosupport, ASUP, maintenance window 
+summary: 오류 이벤트 발생 시 자동 티켓 생성을 억제하려면 AutoSupport 유지보수 윈도우를 활성화하십시오. 정상 작동 모드에서 스토리지 어레이는 문제가 발생할 경우 AutoSupport를 사용하여 지원 케이스를 생성합니다. 
+---
+= SANtricity System Manager에서 AutoSupport 유지보수 윈도우를 활성화합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+오류 이벤트 발생 시 자동 티켓 생성을 억제하려면 AutoSupport 유지보수 윈도우를 활성화하십시오. 정상 작동 모드에서 스토리지 어레이는 문제가 발생할 경우 AutoSupport를 사용하여 지원 케이스를 생성합니다.
+
+.단계
+. 메뉴에서 지원[지원 센터 > AutoSupport] 탭을 선택하세요.
+. *Enable AutoSupport Maintenance window*를 선택합니다.
+. 유지보수 윈도우 요청이 처리되었다는 확인을 받을 이메일 주소를 입력합니다.
++
+구성에 따라 최대 5개의 이메일 주소를 입력할 수 있습니다. 두 개 이상의 주소를 추가하려면 *다른 이메일 추가*를 선택하여 다른 필드를 여십시오.
+
+. 유지보수 윈도우를 활성화할 기간(시간)을 지정합니다.
++
+지원되는 최대 기간은 72시간입니다.
+
+. *예*를 클릭합니다.
++
+AutoSupport 오류 이벤트 발생 시 자동 티켓 생성이 지정된 기간 동안 일시적으로 억제됩니다.
+
+
+
+.완료한 후
+유지보수 윈도우는 스토리지 어레이의 요청이 AutoSupport 서버에서 처리될 때까지 시작되지 않습니다. 스토리지 어레이에 대한 유지보수 작업을 수행하기 전에 확인 이메일을 받을 때까지 기다리십시오.

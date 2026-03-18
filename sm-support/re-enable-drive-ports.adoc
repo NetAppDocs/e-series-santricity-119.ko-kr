@@ -1,0 +1,26 @@
+---
+permalink: sm-support/re-enable-drive-ports.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, re-enable, drive, ports 
+summary: 잘못된 배선 상태를 복구하기 위해 시정 조치가 취해졌음을 컨트롤러에 알릴 수 있습니다. 
+---
+= SANtricity System Manager에서 드라이브 포트를 다시 활성화하십시오
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+잘못된 배선 상태를 복구하기 위해 시정 조치가 취해졌음을 컨트롤러에 알릴 수 있습니다.
+
+.단계
+. 메뉴:Support[Support Center > Diagnostics] 탭을 선택합니다.
+. *드라이브 포트 다시 활성화*를 선택하고 작업을 수행할 것인지 확인합니다.
++
+이 옵션은 스토리지 어레이에 비활성화된 드라이브 포트가 있는 경우에만 나타납니다.
+
++
+컨트롤러는 배선 오류가 감지되었을 때 비활성화되었던 SAS 포트를 다시 활성화합니다.
+
+

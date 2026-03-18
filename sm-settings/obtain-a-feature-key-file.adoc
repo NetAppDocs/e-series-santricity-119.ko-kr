@@ -1,0 +1,47 @@
+---
+permalink: sm-settings/obtain-a-feature-key-file.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, obtain, feature, key, file, 
+summary: 스토리지 어레이에서 프리미엄 기능 또는 기능 팩을 활성화하려면 먼저 기능 키 파일을 받아야 합니다. 키는 하나의 스토리지 어레이에만 연결됩니다. 
+---
+= SANtricity System Manager에서 기능 키 파일을 가져오세요.
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 어레이에서 프리미엄 기능 또는 기능 팩을 활성화하려면 먼저 기능 키 파일을 받아야 합니다. 키는 하나의 스토리지 어레이에만 연결됩니다.
+
+.이 작업 정보
+이 작업에서는 해당 기능에 필요한 정보를 수집하고 기능 키 파일 요청을 보내는 방법을 설명합니다. 필요한 정보는 다음과 같습니다.
+
+* 섀시 일련 번호
+* 기능 활성화 식별자
+* 기능 활성화 코드
+
+
+.단계
+. System Manager에서 섀시 일련 번호를 찾아 기록해 두십시오. Support Center 타일에 마우스를 올리면 이 일련 번호를 확인할 수 있습니다.
+. System Manager에서 Feature Enable Identifier를 찾습니다. menu:Settings[System]으로 이동한 다음 *Add-ons*까지 아래로 스크롤합니다. *Feature Enable Identifier*를 찾습니다. Feature Enable Identifier의 번호를 기록합니다.
+. 기능 활성화 코드를 찾아서 기록해 두세요. 기능 팩의 경우, 이 코드는 변환 수행 방법에 대한 해당 지침에 제공됩니다.
++
+프리미엄 기능의 경우 다음과 같이 지원 사이트에서 활성화 코드에 액세스할 수 있습니다.
+
++
+..  https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"^]에 로그인합니다.
+.. 해당 제품의 *소프트웨어 라이선스*로 이동합니다.
+.. 스토리지 어레이 섀시의 일련 번호를 입력한 다음 *이동*을 클릭하십시오.
+.. *라이센스 키* 열에서 기능 활성화 코드를 찾습니다.
+.. 원하는 기능의 Feature Activation Code를 기록해 두세요.
+
+
+. 다음 정보를 포함하여 이메일 또는 텍스트 문서를 스토리지 공급업체에 보내 기능 키 파일을 요청하십시오: 섀시 일련 번호, 활성화 식별자 및 기능 활성화 코드.
++
+ http://partnerspfk.netapp.com["NetApp 라이선스 활성화: 스토리지 어레이 프리미엄 기능 활성화"^]로 이동하여 필요한 정보를 입력하면 해당 기능 또는 기능 팩을 얻을 수 있습니다. (이 사이트의 지침은 프리미엄 기능에 대한 것이며 기능 팩에 대한 것이 아닙니다.)
+
+
+
+.완료한 후
+기능 키 파일이 있으면 프리미엄 기능 또는 기능 팩을 활성화할 수 있습니다.

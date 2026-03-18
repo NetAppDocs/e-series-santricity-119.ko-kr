@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: known-issues.html 
+keywords: known, issues, santricity, os 
+summary: 알려진 문제점 
+---
+= 릴리스 노트
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+릴리스 노트는 이 사이트 외부에서 확인할 수 있습니다. NetApp 지원 사이트 자격 증명을 사용하여 로그인하라는 메시지가 표시됩니다.
+
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP3334464["11.90 릴리스 노트"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2885976["11.80 릴리스 노트"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2874254["11.70 릴리스 노트"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2857931["11.60 릴리스 노트"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2842060["11.50 릴리스 노트"^]
+

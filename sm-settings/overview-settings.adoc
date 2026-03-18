@@ -1,0 +1,41 @@
+---
+permalink: sm-settings/overview-settings.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, system settings 
+summary: 일부 일반 어레이 설정 및 추가 기능에 대해 System Manager를 구성할 수 있습니다. 
+---
+= SANtricity System Manager의 설정 개요에 대해 알아보세요.
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+일부 일반 어레이 설정 및 추가 기능에 대해 SANtricity System Manager를 구성할 수 있습니다.
+
+
+
+== 어떤 설정을 구성할 수 있습니까?
+
+어레이 설정에는 다음이 포함됩니다.
+
+* link:cache-settings-and-performance.html["캐시 설정 및 성능"]
+* link:automatic-load-balancing-overview.html"["자동 로드 밸런싱"]
+* link:how-add-on-features-work.html["추가 기능"]
+* link:overview-drive-security.html["드라이브 보안"]
+
+
+
+
+== 관련 작업
+
+시스템 설정과 관련된 작업에 대해 자세히 알아보십시오.
+
+* link:download-cli.html["명령줄 인터페이스(CLI)를 다운로드하세요."]
+* link:create-internal-security-key.html["내부 보안 키 생성"]
+* link:create-external-security-key.html["외부 보안 키 생성"]
+* link:../sm-hardware/configure-iscsi-ports-hardware.html["iSCSI 포트 구성"]
+* link:../sm-hardware/configure-nvme-over-infiniband-ports-hardware.html["IB 포트를 통해 NVME 구성"]
+* link:../sm-hardware/configure-nvme-over-roce-ports-hardware.html["RoCE 포트를 통한 NVMe 구성"]
+

@@ -1,0 +1,35 @@
+---
+permalink: sm-storage/ssd-cache-restrictions.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, ssd, cache, restrictions 
+summary: 스토리지 어레이에서 SSD Cache를 사용할 때의 제한 사항에 대해 알아보십시오. 
+---
+= SANtricity 소프트웨어의 SSD 캐시 제한 사항에 대해 알아보십시오
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 어레이에서 SSD Cache를 사용할 때의 제한 사항에 대해 알아보십시오.
+
+
+
+== 제한 사항
+
+* 컨트롤러의 SSD Cache를 사용하도록 할당된 볼륨은 자동 로드 밸런스 전송 대상이 아닙니다.
+* 현재 스토리지 어레이당 하나의 SSD Cache만 지원됩니다.
+* 스토리지 어레이에서 사용 가능한 최대 SSD Cache 용량은 10TB입니다.
+* 스냅샷 이미지에서는 SSD Cache가 지원되지 않습니다.
+* SSD 캐시가 활성화되었거나 비활성화된 볼륨을 가져오거나 내보낼 경우 캐시된 데이터는 가져오거나 내보내지 않습니다.
+* SSD Cache를 먼저 삭제하지 않고는 SSD Cache의 마지막 드라이브를 제거할 수 없습니다.
+
+
+
+
+== 드라이브 보안 관련 제한 사항
+
+* SSD Cache에 대한 보안은 SSD Cache를 생성할 때만 활성화할 수 있습니다. 볼륨에서처럼 나중에 보안을 활성화할 수는 없습니다.
+* SSD 캐시에서 보안 기능을 지원하는 드라이브와 지원하지 않는 드라이브를 혼합하여 사용하는 경우 이러한 드라이브에 대해 드라이브 보안을 활성화할 수 없습니다.
+* 보안 기능이 활성화된 볼륨에는 보안 기능이 활성화된 SSD Cache가 있어야 합니다.
+

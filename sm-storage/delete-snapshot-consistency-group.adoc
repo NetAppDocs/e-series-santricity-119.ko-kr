@@ -1,0 +1,40 @@
+---
+permalink: sm-storage/delete-snapshot-consistency-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, snapshot, consistency, group 
+summary: 더 이상 필요하지 않은 스냅샷 일관성 그룹을 삭제할 수 있습니다. 
+---
+= SANtricity System Manager에서 스냅샷 일관성 그룹을 삭제합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+더 이상 필요하지 않은 스냅샷 일관성 그룹을 삭제할 수 있습니다.
+
+.시작하기 전에
+모든 멤버 볼륨의 이미지가 더 이상 백업 또는 테스트 목적으로 필요하지 않은지 확인하십시오.
+
+.이 작업 정보
+이 작업은 스냅샷 일관성 그룹과 연결된 모든 스냅샷 이미지 또는 스케줄을 삭제합니다.
+
+.단계
+. 메뉴: Storage[Snapshots]를 선택합니다.
+. * 스냅샷 일관성 그룹 * 탭을 선택합니다.
+. 삭제하려는 스냅샷 일관성 그룹을 선택한 다음 메뉴: 일반적이지 않은 작업[삭제]를 선택합니다.
++
+스냅샷 일관성 그룹 삭제 확인 대화 상자가 나타납니다.
+
+. 이 작업을 수행할 것인지 확인한 다음 *삭제*를 클릭합니다.
+
+
+.결과
+System Manager는 다음 작업을 수행합니다.
+
+* 스냅샷 일관성 그룹에서 기존의 모든 스냅샷 이미지 및 스냅샷 볼륨을 삭제합니다.
+* 스냅샷 일관성 그룹의 각 구성원 볼륨에 대해 존재하는 모든 관련 스냅샷 이미지를 삭제합니다.
+* 스냅샷 일관성 그룹의 각 구성원 볼륨에 대해 존재하는 모든 관련 스냅샷 볼륨을 삭제합니다.
+* 스냅샷 일관성 그룹의 각 구성원 볼륨에 대해 연결된 모든 예약된 용량을 삭제합니다(선택된 경우).
+

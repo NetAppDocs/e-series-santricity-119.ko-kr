@@ -1,0 +1,34 @@
+---
+permalink: sm-settings/view-iser-over-infiniband-statistics-system.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, iser, over, infiniBand, statistics, 
+summary: 스토리지 어레이의 컨트롤러에 InfiniBand 포트를 통한 iSER이 포함되어 있는 경우 호스트 연결에 대한 데이터를 볼 수 있습니다. 
+---
+= SANtricity System Manager에서 InfiniBand를 통한 iSER 통계 보기
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 어레이의 컨트롤러에 InfiniBand 포트를 통한 iSER이 포함되어 있는 경우 호스트 연결에 대한 데이터를 볼 수 있습니다.
+
+.이 작업 정보
+System Manager는 다음과 같은 유형의 iSER over InfiniBand 통계를 표시합니다. 모든 통계는 읽기 전용이며 설정할 수 없습니다.
+
+* *로컬 타겟(프로토콜) 통계* -- InfiniBand 타겟에 대한 iSER 통계를 제공하며, 스토리지 미디어에 대한 블록 수준 액세스를 보여줍니다.
+* *iSER over InfiniBand 인터페이스 통계* -- InfiniBand 인터페이스의 모든 iSER 포트에 대한 통계를 제공하며, 여기에는 각 스위치 포트와 관련된 성능 통계 및 링크 오류 정보가 포함됩니다.
+
+
+각 통계는 원시 통계 또는 기준 통계로 볼 수 있습니다. 원시 통계는 컨트롤러가 시작된 이후 수집된 모든 통계입니다. 기준 통계는 기준 시점을 설정한 이후 수집된 특정 시점의 통계입니다.
+
+.단계
+. 메뉴:Settings[System]를 선택합니다.
+. *View iSER over InfiniBand Statistics*를 선택합니다.
+. 탭을 클릭하여 다양한 통계 세트를 확인하십시오.
+. *선택 사항:* 기준선을 설정하려면 *Set new baseline*을 클릭하십시오.
++
+기준선을 설정하면 통계 수집을 위한 새로운 시작점이 설정됩니다. 동일한 기준선이 InfiniBand 통계를 통한 모든 iSER에 사용됩니다.
+
+

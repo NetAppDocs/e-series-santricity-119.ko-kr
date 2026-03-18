@@ -1,0 +1,16 @@
+---
+permalink: sm-support/workflow-for-autosupport.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, workflow, autosupport, 
+summary: SANtricity System Manager에서 다음 단계에 따라 AutoSupport 기능을 구성합니다. 
+---
+= SANtricity System Manager에서 AutoSupport 구성
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity System Manager에서 다음 단계에 따라 AutoSupport 기능을 구성합니다.
+
+image::../media/sam1130-flw-support-asup-setup.gif[AutoSupport 워크플로]

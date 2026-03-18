@@ -1,0 +1,32 @@
+---
+permalink: sm-mirroring/deactivate-synchronous-mirroring.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, deactivate, synchronous, mirroring, adapter, host, bus, 
+summary: '스토리지 어레이에서 동기식 미러링 기능을 비활성화하면 미러 데이터 전송을 위해 예약되었던 호스트 버스 어댑터(HBA) 호스트 포트 4를 정상적으로 다시 사용할 수 있습니다.' 
+---
+= SANtricity System Manager에서 동기식 미러링을 비활성화합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 어레이에서 동기식 미러링 기능을 비활성화하면 미러 데이터 전송을 위해 예약되었던 호스트 버스 어댑터(HBA) 호스트 포트 4를 정상적으로 다시 사용할 수 있습니다.
+
+.시작하기 전에
+모든 동기식 미러링 관계를 삭제해야 합니다. 스토리지 어레이에서 모든 미러링된 쌍이 삭제되었는지 확인하십시오.
+
+.단계
+. 메뉴: 스토리지[동기식 미러링]를 선택합니다.
+. 메뉴: 일반적이지 않은 작업[비활성화]를 선택합니다.
++
+시스템에 확인 메시지가 표시됩니다.
+
+. 확인하려면 *예*를 선택합니다.
+
+
+.결과
+* 컨트롤러의 HBA 호스트 포트 4는 동기식 미러링 통신 전용이었지만 이제 호스트 읽기 및 쓰기 요청을 수락할 수 있습니다.
+* 스토리지 어레이의 예약된 용량 볼륨이 삭제됩니다.
+

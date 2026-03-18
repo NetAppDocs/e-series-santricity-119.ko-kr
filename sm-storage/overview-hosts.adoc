@@ -1,0 +1,55 @@
+---
+permalink: sm-storage/overview-hosts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, hosts 
+summary: 스토리지 어레이와 데이터 서버 간의 연결을 정의하는 호스트 및 호스트 클러스터를 구성할 수 있습니다. 
+---
+= SANtricity 소프트웨어의 호스트 및 호스트 클러스터에 대해 알아보십시오
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 어레이와 데이터 서버 간의 연결을 정의하는 호스트 및 호스트 클러스터를 구성할 수 있습니다.
+
+
+
+== 호스트와 호스트 클러스터란 무엇입니까?
+
+_host_는 스토리지 어레이의 볼륨으로 I/O를 전송하는 서버입니다. _host cluster_는 여러 호스트에 동일한 볼륨을 할당하기 위해 생성할 수 있는 호스트 그룹입니다.
+
+자세한 정보:
+
+* link:host-terminology.html["호스트 용어"]
+* link:access-volumes.html["볼륨 액세스"]
+* link:maximum-number-of-luns.html["최대 LUN 수"]
+
+
+
+
+== 호스트 및 호스트 클러스터를 구성하려면 어떻게 해야 합니까?
+
+호스트 연결을 정의하려면 메뉴:저장소[호스트]로 이동하여 호스트를 수동으로 구성할 수 있습니다. 두 개 이상의 호스트가 동일한 볼륨 세트에 대한 액세스를 공유하도록 하려면 클러스터를 정의하고 해당 클러스터에 볼륨을 할당하면 됩니다.
+
+자세한 정보:
+
+* link:manual-host-creation.html["수동 호스트 생성"]
+* link:how-volumes-are-assigned-to-hosts-and-host-clusters.html["볼륨이 호스트 및 호스트 클러스터에 할당되는 방식"]
+* link:workflow-for-creating-hosts-and-assigning-volumes.html["호스트 생성 및 볼륨 할당을 위한 워크플로우"]
+* link:create-host-manually.html["호스트를 수동으로 생성합니다"]
+* link:create-host-cluster.html["호스트 클러스터 생성"]
+* link:assign-volumes.html["호스트에 볼륨 할당"]
+
+
+
+
+== 관련 정보
+
+호스트와 관련된 작업에 대해 자세히 알아보십시오.
+
+* link:../sm-settings/set-automatic-load-balancing.html["자동 로드 밸런싱 설정"]
+* link:../sm-settings/set-host-connectivity-reporting.html["호스트 연결 보고 설정"]
+* link:../sm-settings/change-default-host-type.html["기본 호스트 유형 변경"]
+

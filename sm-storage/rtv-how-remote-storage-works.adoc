@@ -1,0 +1,65 @@
+---
+permalink: sm-storage/rtv-how-remote-storage-works.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remote, storage 
+summary: 원격 스토리지 기능을 사용하면 원격 스토리지 시스템에서 로컬 E-Series 스토리지 시스템으로 데이터를 가져올 수 있습니다. 이 기능은 장비 업그레이드와 같이 가동 중지 시간을 최소화하면서 데이터 마이그레이션을 간소화하려는 경우에 유용합니다. 
+---
+= SANtricity 소프트웨어에서 원격 스토리지가 작동하는 방식
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+원격 스토리지 기능을 사용하면 원격 스토리지 시스템에서 로컬 E-Series 스토리지 시스템으로 데이터를 가져올 수 있습니다. 이 기능은 장비 업그레이드와 같이 가동 중지 시간을 최소화하면서 데이터 마이그레이션을 간소화하려는 경우에 유용합니다.
+
+원격 스토리지 기능을 구성하려면 하드웨어를 설정한 다음 System Manager를 사용하여 원격 스토리지 객체를 생성해야 합니다. 이 구성이 완료되면 가져오기 프로세스가 시작됩니다.
+
+
+
+== 하드웨어 설정
+
+다음 워크플로를 사용하여 하드웨어 연결을 준비합니다.
+
+이러한 단계는 https://docs.netapp.com/us-en/e-series/remote-storage-volumes/index.html["원격 스토리지 볼륨 개요"^]의 E-Series 및 SANtricity 문서 센터와 https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf["원격 스토리지 기술 보고서"^]에서 제공되는 Remote Storage 기능 사용자 가이드에 자세히 설명되어 있습니다.
+
+
+NOTE: SANtricity Remote Storage Volumes는 현재 E4000 시스템에서 지원되지 않습니다.
+
+로컬 E-Series 스토리지 시스템:
+
+. 각 컨트롤러가 원격 스토리지 시스템에 대한 iSCSI 연결을 가지고 있는지 확인합니다. 이 연결을 통해 로컬 E-Series 시스템은 원격 시스템에서 호스트로 설정할 수 있는 iSCSI 이니시에이터 역할을 합니다.
+. 가져오기 작업을 위한 대상 볼륨을 생성합니다. 해당 볼륨의 용량이 원격 스토리지 시스템의 소스 볼륨과 같거나 더 커야 하고, 블록 크기가 일치해야 하며, 매핑되지 않아야 합니다. link:create-volumes.html["볼륨 생성"]을 참조하십시오.
+. 로컬 E-Series 시스템의 System Manager 인터페이스에서 iSCSI Qualified Name(IQN)을 수집합니다. IQN은 나중에 로컬 E-Series 시스템을 원격 스토리지 시스템의 호스트로 설정하는 데 사용됩니다. System Manager에서 menu:Settings[System > iSCSI settings > Target IQN]으로 이동합니다.
+
+
+원격 스토리지 시스템:
+
+. IQN을 사용하여 로컬 E-Series 시스템을 원격 시스템의 호스트로 설정합니다. 다음과 같이 적절한 호스트 유형을 설정해야 합니다.
++
+** 원격 시스템이 E-Series 모델인 경우 link:overview-hosts.html["호스트 및 호스트 클러스터 개요"]을 참조하십시오. "Factory Default" 호스트 유형을 사용하십시오.
+** 원격 시스템이 다른 공급업체의 제품인 경우, 사용 가능한 옵션에 따라 적절한 호스트 유형을 선택하십시오.
+
+
+. 모든 I/O를 중지하고 파일 시스템을 마운트 해제하고 소스 볼륨에 대한 호스트 또는 애플리케이션 할당을 제거하십시오.
+. 새로 생성된 로컬 E-Series 스토리지 시스템 호스트에 볼륨을 할당합니다.
+. 선택한 소스 볼륨에 대해 가져오기를 생성할 수 있도록 원격 스토리지 시스템에서 다음 정보를 수집하십시오.
++
+** iSCSI Qualified Name(IQN)
+** iSCSI IP 주소
+** 소스 볼륨의 LUN 번호
+
+
+
+
+
+
+== System Manager 설정
+
+가져오기를 위한 원격 스토리지 객체를 생성하려면 다음 워크플로를 사용하십시오.
+
+. System Manager 인터페이스의 Remote Storage 마법사를 사용하여 원격 스토리지 장치(데이터 가져오기 소스)를 E-Series 시스템의 타겟 볼륨에 매핑합니다. *Finish*를 선택하면 가져오기 프로세스가 시작됩니다.
+. View Operations 대화 상자 또는 Operations in Progress 패널에서 가져오기를 모니터링합니다. 필요한 경우 프로세스를 일시 중지하고 재개할 수도 있습니다.
+. 선택적으로, 가져오기가 완료되면 소스 볼륨과 타겟 볼륨 간의 연결을 끊거나, 향후 가져오기를 위해 연결을 유지할 수 있습니다.
+

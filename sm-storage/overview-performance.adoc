@@ -1,0 +1,39 @@
+---
+permalink: sm-storage/overview-performance.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, performance 
+summary: 성능 페이지는 스토리지 어레이의 성능을 쉽게 모니터링할 수 있는 방법을 제공합니다. 
+---
+= SANtricity System Manager의 성능 개요에 대해 알아보십시오
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+성능 페이지는 스토리지 어레이의 성능을 쉽게 모니터링할 수 있는 방법을 제공합니다.
+
+
+
+== 성능 데이터에서 무엇을 알 수 있습니까?
+
+성능 그래프와 표는 거의 실시간으로 성능 데이터를 보여주므로 스토리지 어레이에 문제가 있는지 여부를 파악하는 데 도움이 됩니다. 또한 성능 데이터를 저장하여 스토리지 어레이의 이력 보기를 구축하고 문제가 시작된 시점이나 원인을 확인할 수 있습니다.
+
+자세한 정보:
+
+* link:performance-graphs-guidelines.html["성능 그래프 및 지침"]
+* link:performance-terminology.html["성능 용어"]
+
+
+
+
+== 성능 데이터를 어떻게 볼 수 있습니까?
+
+성능 데이터는 홈 페이지와 스토리지 페이지에서 확인할 수 있습니다.
+
+자세한 정보:
+
+* link:view-performance-data-graphical.html["그래픽 성능 데이터 보기"]
+* link:view-and-save-performance-data-tabular.html["표 형식의 성능 데이터 보기 및 저장"]
+* link:interpret-performance-data.html["성능 데이터 해석"]
+

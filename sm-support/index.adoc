@@ -1,0 +1,14 @@
+---
+permalink: sm-support/index.html 
+sidebar: sidebar 
+keywords:  
+summary:  
+---
+= SANtricity System Manager 11.9
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+지원 페이지에서는 기술 지원 리소스에 액세스할 수 있습니다.

@@ -1,0 +1,71 @@
+---
+permalink: sm-interface/problem-notification.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, notifications 
+summary: System Manager는 아이콘 및 기타 여러 방법을 사용하여 스토리지 어레이에 문제가 있음을 알려줍니다. 
+---
+= SANtricity System Manager 문제 알림에 대해 알아보십시오
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity System Manager는 아이콘 및 기타 여러 방법을 사용하여 스토리지 어레이에 문제가 있음을 알려줍니다.
+
+
+
+== 아이콘
+
+System Manager는 이러한 아이콘을 사용하여 스토리지 어레이 및 해당 구성 요소의 상태를 나타냅니다.
+
+[cols="1a,1a"]
+|===
+| 아이콘 | 설명 
+
+
+ a| 
+image:../media/sam1130-ss-icon-status-success.gif["최적"]
+ a| 
+최적
+
+
+
+ a| 
+image:../media/sam1130-ss-icon-status-failure.gif["최적화되지 않았거나 실패함"]
+ a| 
+최적화되지 않았거나 실패함
+
+
+
+ a| 
+image:../media/sam1130-ss-icon-status-service.gif["주의 또는 수정이 필요합니다"]
+ a| 
+주의 또는 수정이 필요합니다
+
+
+
+ a| 
+image:../media/sam1130-ss-icon-status-caution.gif["주의"]
+ a| 
+주의
+
+|===
+System Manager는 이러한 아이콘을 다양한 위치에 표시합니다.
+
+* 홈 페이지의 알림 영역에 실패 아이콘과 메시지가 표시됩니다.
+* 탐색 영역의 홈 페이지 아이콘에 실패 아이콘이 표시됩니다.
+* 구성 요소 페이지에서 드라이브 및 컨트롤러의 그래픽에 장애 아이콘이 표시됩니다.
+
+
+
+
+== 알림 및 LED
+
+또한 System Manager는 다른 방식으로도 문제 발생을 알려줍니다.
+
+* System Manager는 SNMP 알림 또는 이메일 오류 메시지를 보냅니다.
+* 하드웨어의 Service Action Required LED가 켜집니다.
+
+
+문제 발생 알림을 받으면 Recovery Guru를 사용하여 문제를 해결하십시오. 필요한 경우 복구 단계와 함께 하드웨어 설명서를 사용하여 고장난 구성 요소를 교체하십시오.

@@ -1,0 +1,89 @@
+---
+permalink: um-admin/overview-interface-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, interface, GUI 
+summary: Unified Manager는 단일 뷰에서 여러 스토리지 어레이를 관리할 수 있는 웹 기반 인터페이스입니다. 
+---
+= SANtricity Unified Manager에 대해 알아보십시오
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity Unified Manager는 여러 스토리지 어레이를 단일 뷰에서 관리할 수 있는 웹 기반 인터페이스입니다.
+
+
+
+== 기본 페이지
+
+Unified Manager에 로그인하면 기본 페이지가 *관리 - 전체*로 열립니다. 이 페이지에서 네트워크에서 검색된 스토리지 어레이 목록을 스크롤하여 상태를 확인하고 단일 어레이 또는 어레이 그룹에 대한 작업을 수행할 수 있습니다.
+
+
+
+== 탐색 사이드바
+
+탐색 사이드바에서 Unified Manager 기능을 액세스할 수 있습니다.
+
+[cols="25h,~"]
+|===
+| 영역 | 설명 
+
+
+ a| 
+관리
+ a| 
+네트워크에서 스토리지 어레이를 검색하고, 어레이용 SANtricity System Manager를 실행하고, 하나의 어레이에서 여러 어레이로 설정을 가져오고, 어레이 그룹을 관리할 수 있습니다. 어레이 이름 옆의 확인란을 선택하면 설정 가져오기 및 어레이 그룹 생성과 같은 작업을 수행할 수 있습니다. 각 행 끝에 있는 줄임표를 클릭하면 어레이 이름 변경과 같은 단일 어레이 작업에 대한 인라인 메뉴가 표시됩니다.
+
+
+
+ a| 
+운영
+ a| 
+한 어레이에서 다른 어레이로 설정을 가져오는 것과 같은 일괄 작업의 진행 상황을 확인하십시오.
+
+[NOTE]
+====
+스토리지 어레이의 상태가 최적이 아닐 경우 일부 작업을 사용할 수 없습니다.
+
+====
+
+
+ a| 
+인증서 관리
+ a| 
+브라우저와 클라이언트 간의 인증을 위해 인증서를 관리합니다.
+
+
+
+ a| 
+액세스 관리
+ a| 
+Unified Manager 인터페이스에 대한 사용자 인증을 설정합니다.
+
+
+
+ a| 
+지원
+ a| 
+기술 지원 옵션, 리소스 및 연락처를 확인하십시오.
+
+|===
+
+
+== 인터페이스 설정 및 도움말
+
+인터페이스 오른쪽 상단에서 도움말 및 기타 문서를 확인할 수 있습니다. 또한 로그인 이름 옆의 드롭다운 메뉴를 통해 관리 옵션에 접근할 수 있습니다.
+
+
+
+== 사용자 로그인 및 암호
+
+시스템에 로그인한 현재 사용자가 인터페이스의 오른쪽 상단에 표시됩니다.
+
+사용자 및 비밀번호에 대한 자세한 내용은 다음을 참조하십시오.
+
+* link:administrator-password-protection-unified.html["관리자 암호 보호 설정"]
+* link:change-admin-password-unified.html["관리자 비밀번호 변경"]
+* link:../um-certificates/change-passwords-unified.html["로컬 사용자 프로필의 암호를 변경합니다"]
+

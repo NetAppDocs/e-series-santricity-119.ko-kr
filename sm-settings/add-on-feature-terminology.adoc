@@ -1,0 +1,47 @@
+---
+permalink: sm-settings/add-on-feature-terminology.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, add-on, feature, terms 
+summary: 스토리지 어레이에 추가 기능 약관이 어떻게 적용되는지 알아보십시오. 
+---
+= SANtricity 소프트웨어의 추가 기능 용어에 대해 알아보십시오
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 어레이에 추가 기능 약관이 어떻게 적용되는지 알아보십시오.
+
+[cols="25h,~"]
+|===
+| 용어 | 설명 
+
+
+ a| 
+기능 활성화 식별자
+ a| 
+기능 활성화 식별자는 특정 스토리지 어레이를 식별하는 고유 문자열입니다. 이 식별자를 통해 프리미엄 기능을 구매할 때 해당 기능이 특정 스토리지 어레이에만 연결되도록 보장합니다. 이 문자열은 시스템 페이지의 추가 기능 항목에 표시됩니다.
+
+
+
+ a| 
+기능 키 파일
+ a| 
+기능 키 파일은 프리미엄 기능 또는 기능 팩을 잠금 해제하고 활성화하기 위해 받는 파일입니다.
+
+
+
+ a| 
+기능 팩
+ a| 
+기능 팩은 스토리지 어레이 속성을 변경하는 번들입니다(예: 프로토콜을 Fibre Channel에서 iSCSI로 변경). 기능 팩을 활성화하려면 특수 키가 필요합니다.
+
+
+
+ a| 
+프리미엄 기능
+ a| 
+프리미엄 기능은 활성화하려면 키가 필요한 추가 옵션입니다. System Manager의 표준 구성에는 포함되어 있지 않습니다.
+
+|===

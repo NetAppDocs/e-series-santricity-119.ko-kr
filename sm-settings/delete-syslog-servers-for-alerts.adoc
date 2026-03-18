@@ -1,0 +1,28 @@
+---
+permalink: sm-settings/delete-syslog-servers-for-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, syslog, servers, alerts, 
+summary: syslog 서버를 삭제하면 더 이상 알림을 수신하지 않습니다. 
+---
+= SANtricity System Manager에서 알림용 syslog 서버를 삭제합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+syslog 서버를 삭제하면 더 이상 알림을 수신하지 않습니다.
+
+.단계
+. 메뉴:Settings[Alerts]를 선택합니다.
+. *Syslog* 탭을 선택합니다.
+. syslog 서버 주소를 선택한 다음 오른쪽 상단에서 *제거*를 클릭합니다.
++
+Syslog 서버 삭제 확인 대화 상자가 열립니다.
+
+. 작업을 확인한 다음 *삭제*를 클릭합니다.
+
+
+.결과
+제거한 서버는 더 이상 이벤트 모니터에서 알림을 수신하지 않습니다.

@@ -1,0 +1,14 @@
+---
+permalink: sm-hardware/index.html 
+sidebar: sidebar 
+keywords:  
+summary:  
+---
+= SANtricity System Manager 11.9
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+하드웨어 페이지에서 구성 요소 상태를 확인하고 해당 구성 요소와 관련된 일부 기능을 수행할 수 있습니다.

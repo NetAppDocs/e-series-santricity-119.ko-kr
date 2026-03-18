@@ -1,0 +1,14 @@
+---
+permalink: sm-interface/index.html 
+sidebar: sidebar 
+keywords: santricity, system, manager, 
+summary: SANtricity System Manager 11.9 
+---
+= SANtricity System Manager 11.9
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity System Manager는 단일 화면에서 스토리지 어레이를 관리할 수 있는 웹 기반 인터페이스입니다.

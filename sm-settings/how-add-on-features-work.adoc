@@ -1,0 +1,26 @@
+---
+permalink: sm-settings/how-add-on-features-work.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, add-on, features, 
+summary: 추가 기능은 System Manager의 표준 구성에 포함되지 않은 기능으로, 활성화하려면 키가 필요할 수 있습니다. 추가 기능은 단일 프리미엄 기능이거나 번들 기능 팩일 수 있습니다. 
+---
+= SANtricity System Manager에서 추가 기능이 작동하는 방식
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+추가 기능은 SANtricity System Manager의 표준 구성에 포함되지 않은 기능으로, 활성화하려면 키가 필요할 수 있습니다. 추가 기능은 단일 프리미엄 기능이거나 여러 기능이 묶인 팩일 수 있습니다.
+
+다음 단계에서는 프리미엄 기능 또는 기능 팩을 활성화하는 방법에 대한 개요를 제공합니다.
+
+. 다음 정보를 얻으십시오.
++
+** 섀시 일련 번호 및 기능 활성화 식별자는 설치할 기능에 대한 스토리지 어레이를 식별합니다. 이러한 항목은 System Manager에서 사용할 수 있습니다.
+** 기능을 구매할 때 지원 사이트에서 사용할 수 있는 기능 활성화 코드입니다.
+
+
+. 스토리지 공급업체에 문의하거나 Premium Feature Activation 사이트에 액세스하여 기능 키를 받으십시오. 활성화를 위해 섀시 일련 번호, 활성화 식별자 및 기능 코드를 제공하십시오.
+. System Manager를 사용하여 기능 키 파일을 사용하여 프리미엄 기능 또는 기능 팩을 활성화합니다.
+

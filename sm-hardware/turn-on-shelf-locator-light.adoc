@@ -1,0 +1,23 @@
+---
+permalink: sm-hardware/turn-on-shelf-locator-light.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, shelf, locator, light, LED 
+summary: Hardware 페이지에 표시된 쉘프의 물리적 위치를 찾으려면 쉘프의 로케이터 표시등을 켤 수 있습니다. 
+---
+= SANtricity System Manager에서 선반 위치 표시등을 켭니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+하드웨어 페이지에 표시된 쉘프의 물리적 위치를 찾으려면 쉘프의 로케이터 표시등을 켤 수 있습니다.
+
+.단계
+. * Hardware * 를 선택합니다.
+. 컨트롤러 셸프 또는 드라이브 셸프에 대한 드롭다운 목록을 선택한 다음 * 위치 표시등 켜기 * 를 선택합니다.
++
+선반의 위치 표시등이 켜집니다.
+
+. 선반의 위치를 확인했으면 대화 상자로 돌아가서 *끄기*를 선택하십시오.
+

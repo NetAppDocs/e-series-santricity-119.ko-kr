@@ -1,0 +1,46 @@
+---
+permalink: sm-settings/edit-mail-server-for-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, edit, mail, server, alerts, 
+summary: 이메일 알림에 사용되는 메일 서버 주소와 이메일 발신자 주소를 변경할 수 있습니다. 
+---
+= SANtricity System Manager에서 알림용 메일 서버 편집
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이메일 알림에 사용되는 메일 서버 주소와 이메일 발신자 주소를 변경할 수 있습니다.
+
+.시작하기 전에
+변경하려는 메일 서버 주소는 사용 가능해야 합니다. 주소는 IPv4 또는 IPv6 주소이거나 정규화된 도메인 이름일 수 있습니다.
+
+[NOTE]
+====
+정규화된 도메인 이름을 사용하려면 두 컨트롤러 모두에 DNS 서버를 구성해야 합니다. 하드웨어 페이지에서 DNS 서버를 구성할 수 있습니다.
+
+====
+.단계
+. 메뉴:Settings[Alerts]를 선택합니다.
+. *Email* 탭을 선택합니다.
+. *메일 서버 구성*을 선택합니다.
++
+메일 서버 구성 대화 상자가 열립니다.
+
+. 메일 서버 주소, 발신자 정보 및 연락처 정보를 편집합니다.
++
+** *메일 서버 주소* -- 메일 서버의 정규화된 도메인 이름, IPv4 주소 또는 IPv6 주소를 편집하십시오.
++
+[NOTE]
+====
+정규화된 도메인 이름을 사용하려면 두 컨트롤러 모두에 DNS 서버를 구성해야 합니다. 하드웨어 페이지에서 DNS 서버를 구성할 수 있습니다.
+
+====
+** *Email sender address* -- 이메일 발신자로 사용할 이메일 주소를 편집합니다. 이 주소는 이메일 메시지의 "From" 필드에 표시됩니다.
+** *이메일에 연락처 정보 포함* -- 발신자의 연락처 정보를 편집하려면 이 옵션을 선택한 다음 이름과 전화번호를 편집하십시오.
+
+
+. *저장*을 클릭합니다.
+

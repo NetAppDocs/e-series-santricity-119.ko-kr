@@ -1,0 +1,44 @@
+---
+permalink: sm-storage/overview-remote-storage.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remote, storage 
+summary: 원격 스토리지 기능을 사용하면 원격 스토리지 시스템에서 데이터를 가져올 수 있습니다. 
+---
+= SANtricity System Manager의 원격 스토리지 기능에 대해 알아보십시오
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+원격 스토리지 기능을 사용하는 경우 원격 스토리지 시스템에서 스토리지 어레이로 데이터를 가져올 수 있습니다.
+
+
+
+== 원격 스토리지 기능이란 무엇인가요?
+
+_Remote Storage_ 기능을 사용하면 원격 스토리지 시스템에서 로컬 E-Series 스토리지 시스템으로 데이터를 가져올 수 있습니다. 원격 시스템은 다른 E-Series 시스템이거나 다른 공급업체의 시스템일 수 있습니다. 이 기능은 장비 업그레이드와 같이 가동 중지 시간을 최소화하면서 데이터 마이그레이션을 간소화하려는 경우에 유용합니다.
+
+
+NOTE: 원격 스토리지를 사용하려면 서브모델 ID(SMID)에서 이 기능을 활성화해야 합니다.
+
+자세한 정보:
+
+* link:rtv-how-remote-storage-works.html["원격 스토리지 작동 방식"]
+* link:rtv-terminology.html["원격 스토리지 용어"]
+* link:rtv-remote-storage-requirements.html["원격 스토리지 요구 사항"]
+* link:rtv-remote-storage-volume-requirements.html["원격 스토리지 볼륨 요구 사항"]
+
+
+
+
+== 이 기능을 사용하여 데이터를 가져오는 방법은 무엇입니까?
+
+원격 스토리지 마법사를 사용하면 원격 스토리지 장치(데이터 가져오기 소스)를 E-Series 시스템의 타겟 볼륨에 매핑할 수 있습니다. 이 마법사는 menu:Storage[Remote storage]에서 사용할 수 있습니다.
+
+자세한 정보:
+
+* link:rtv-import-remote-storage.html["원격 스토리지 가져오기"]
+* link:rtv-manage-progress-of-remote-volume-import.html["데이터 가져오기 진행 상황 관리"]
+

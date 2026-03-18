@@ -1,0 +1,35 @@
+---
+permalink: um-certificates/reset-management-certificates-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, reset, management, certificates 
+summary: 관리 인증서를 원래의 공장 자체 서명 상태로 되돌릴 수 있습니다. 
+---
+= 관리 인증서 재설정
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+관리 인증서를 원래의 공장 자체 서명 상태로 되돌릴 수 있습니다.
+
+.시작하기 전에
+보안 관리자 권한이 포함된 사용자 프로필로 로그인해야 합니다. 그렇지 않으면 인증서 관련 기능이 표시되지 않습니다.
+
+.이 작업 정보
+이 작업은 Web Services Proxy 및 Unified Manager가 설치된 호스트 시스템에서 현재 관리 인증서를 삭제합니다. 인증서가 재설정되면 호스트 시스템은 자체 서명된 인증서를 다시 사용하게 됩니다.
+
+.단계
+. *설정 > 인증서*를 선택합니다.
+. *Array Management* 탭을 선택한 다음 *Reset*을 선택합니다.
++
+관리 인증서 재설정 확인 대화 상자가 열립니다.
+
+. 필드에  `reset`를 입력한 다음 *재설정*을 클릭합니다.
++
+브라우저를 새로 고침한 후 브라우저가 대상 사이트 접속을 차단하고 해당 사이트가 HTTP Strict Transport Security를 사용하고 있다고 보고할 수 있습니다. 이러한 상황은 자체 서명 인증서로 다시 전환할 때 발생합니다. 접속을 차단하는 상황을 해결하려면 브라우저에서 검색 데이터를 삭제해야 합니다.
+
+
+
+.결과
+시스템이 서버에서 제공하는 자체 서명 인증서를 사용하게 됩니다. 그 결과, 시스템은 사용자에게 세션에 사용할 자체 서명 인증서를 수동으로 수락하라는 메시지를 표시합니다.

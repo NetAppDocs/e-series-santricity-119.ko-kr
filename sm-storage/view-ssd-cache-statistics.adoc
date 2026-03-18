@@ -1,0 +1,86 @@
+---
+permalink: sm-storage/view-ssd-cache-statistics.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, ssd cache, statistics 
+summary: 읽기, 쓰기, 캐시 적중, 캐시 할당 비율 및 캐시 사용률과 같은 SSD Cache에 대한 통계를 볼 수 있습니다. 
+---
+= SANtricity System Manager에서 SSD Cache 통계 보기
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+읽기, 쓰기, 캐시 적중, 캐시 할당 비율 및 캐시 사용률과 같은 SSD Cache에 대한 통계를 볼 수 있습니다.
+
+상세 통계의 하위 집합인 명목 통계는 SSD Cache 통계 보기 대화 상자에 표시됩니다. SSD Cache에 대한 상세 통계는 모든 SSD 통계를  `.csv` 파일로 내보낸 경우에만 볼 수 있습니다.
+
+통계를 검토하고 해석할 때 일부 해석은 여러 통계를 종합하여 도출된다는 점을 염두에 두십시오.
+
+.단계
+. 메뉴: 스토리지[풀 및 볼륨 그룹]를 선택합니다.
+. 통계를 보려는 SSD Cache를 선택한 다음 menu:More[View SSD Cache statistics]를 클릭합니다.
++
+View SSD Cache Statistics 대화 상자가 나타나고 선택한 SSD 캐시에 대한 명목상의 통계가 표시됩니다.
+
++
+.필드 세부 정보
+[%collapsible]
+====
+[cols="25h,~"]
+|===
+| 설정 | 설명 
+
+
+ a| 
+읽기
+ a| 
+SSD Cache가 설정된 볼륨에서 호스트가 읽은 총 횟수를 표시합니다. 읽기 대 쓰기 비율이 클수록 캐시 작업이 더 우수합니다.
+
+
+
+ a| 
+쓰기
+ a| 
+SSD Cache가 설정된 볼륨에 대한 총 호스트 쓰기 수입니다. 읽기 대 쓰기 비율이 클수록 캐시 작동이 더 우수합니다.
+
+
+
+ a| 
+캐시 적중
+ a| 
+캐시 적중 횟수를 표시합니다.
+
+
+
+ a| 
+캐시 적중 %
+ a| 
+캐시 적중률을 백분율로 나타냅니다. 이 수치는 캐시 적중 횟수 / (읽기 횟수 + 쓰기 횟수)로 계산됩니다. SSD Cache가 효과적으로 작동하려면 캐시 적중률이 50% 이상이어야 합니다.
+
+
+
+ a| 
+캐시 할당 %
+ a| 
+이 컨트롤러에서 사용 가능한 SSD Cache 스토리지의 백분율로 표시되는 할당된 SSD Cache 스토리지의 백분율을 표시하며 할당된 바이트/사용 가능한 바이트에서 파생됩니다.
+
+
+
+ a| 
+캐시 사용률 %
+ a| 
+할당된 SSD Cache 스토리지의 백분율로 표시되는 활성화된 볼륨의 데이터가 포함된 SSD Cache 스토리지의 비율을 표시합니다. 이 양은 SSD Cache의 활용률 또는 밀도를 나타냅니다. 할당된 바이트/사용 가능한 바이트에서 파생됩니다.
+
+
+
+ a| 
+모두 내보내기
+ a| 
+모든 SSD Cache 통계를 CSV 형식으로 내보냅니다. 내보낸 파일에는 SSD Cache에 대한 모든 통계(일반 통계 및 상세 통계)가 포함됩니다.
+
+|===
+====
+. 대화 상자를 닫으려면 *취소* 를 클릭하십시오.
+

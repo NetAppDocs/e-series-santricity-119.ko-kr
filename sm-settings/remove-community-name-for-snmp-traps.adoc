@@ -1,0 +1,35 @@
+---
+permalink: sm-settings/remove-community-name-for-snmp-traps.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remove, communities, snmpv2c, traps, 
+summary: SNMPv2c 트랩에 대한 커뮤니티 이름을 제거할 수 있습니다. 
+---
+= SANtricity System Manager에서 SNMPv2c 트랩에 대한 커뮤니티를 제거합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SNMPv2c 트랩에 대한 커뮤니티 이름을 제거할 수 있습니다.
+
+.단계
+. 메뉴:Settings[Alerts]를 선택합니다.
+. *SNMP* 탭을 선택합니다.
++
+트랩 대상 및 커뮤니티 이름이 *경고* 페이지에 표시됩니다.
+
+. *커뮤니티 구성*을 선택합니다.
++
+커뮤니티 구성 대화 상자가 열립니다.
+
+. 삭제하려는 커뮤니티 이름을 선택한 다음 맨 오른쪽에 있는 *Remove*(X) 아이콘을 클릭합니다.
++
+이 커뮤니티 이름과 연결된 트랩 대상이 있는 경우 Confirm Remove Community 대화 상자에 영향을 받는 트랩 대상 주소가 표시됩니다.
+
+. 작업을 확인한 후 *제거*를 클릭합니다.
+
+
+.결과
+커뮤니티 이름과 해당 트랩 대상이 알림 페이지에서 제거됩니다.

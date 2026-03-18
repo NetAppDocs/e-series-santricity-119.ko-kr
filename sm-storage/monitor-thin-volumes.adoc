@@ -1,0 +1,25 @@
+---
+permalink: sm-storage/monitor-thin-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, monitor, thin, volumes 
+summary: 씬 볼륨의 공간을 모니터링하고 적절한 알림을 생성하여 용량 부족 상황을 방지할 수 있습니다. 
+---
+= SANtricity System Manager에서 씬 볼륨을 모니터링합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+씬 볼륨의 공간을 모니터링하고 적절한 알림을 생성하여 용량 부족 상황을 방지할 수 있습니다.
+
+[NOTE]
+====
+이 기능은 EF600/EF600C 또는 EF300/EF300C 스토리지 시스템에서 사용할 수 없습니다.
+
+====
+[NOTE]
+====
+SANtricity System Manager는 씬 볼륨을 생성하는 옵션을 제공하지 않습니다. 씬 볼륨을 생성하려면 명령줄 인터페이스(CLI)를 사용하십시오.
+
+====

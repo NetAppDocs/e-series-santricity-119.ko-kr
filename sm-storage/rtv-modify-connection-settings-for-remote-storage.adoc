@@ -1,0 +1,42 @@
+---
+permalink: sm-storage/rtv-modify-connection-settings-for-remote-storage.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, modify, connection, settings, remote, storage 
+summary: 설정 보기/편집 옵션을 통해 모든 원격 스토리지 구성에 대한 연결 설정을 편집, 추가 또는 삭제할 수 있습니다. 
+---
+= SANtricity System Manager에서 원격 스토리지에 대한 연결 설정을 수정합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+설정 보기/편집 옵션을 통해 모든 원격 스토리지 구성에 대한 연결 설정을 편집, 추가 또는 삭제할 수 있습니다.
+
+.이 작업 정보
+연결 속성을 변경하면 진행 중인 가져오기 작업에 영향을 미칩니다. 중단을 방지하려면 가져오기 작업이 실행 중이 아닐 때만 연결 속성을 변경하십시오.
+
+.단계
+. 메뉴: Storage[Remote storage]를 선택합니다.
+. 목록에서 수정하려는 원격 스토리지 객체를 선택합니다.
+. *View/Edit Settings*를 클릭합니다.
++
+원격 스토리지 설정 대화 상자가 표시됩니다.
+
+. *Connection Properties* 탭을 클릭합니다.
++
+원격 스토리지 가져오기를 위해 구성된 IP 주소 및 포트 설정이 표시됩니다.
+
+. 다음 작업 중 하나를 수행합니다.
++
+** *Edit* -- 원격 스토리지 객체에 해당하는 항목 옆에 있는 *Edit*를 클릭합니다. 수정된 IP 주소 및/또는 포트 정보를 해당 필드에 입력합니다.
+** *추가* -- *추가*를 클릭한 다음 제공된 필드에 새 IP 주소와 포트 정보를 입력합니다. *추가*를 클릭하여 확인하면 새 연결이 원격 스토리지 객체 목록에 나타납니다.
+** *삭제* -- 목록에서 원하는 연결을 선택한 다음 *삭제*를 클릭합니다. 제공된 필드에 `delete`을(를) 입력하여 작업을 확인한 후 *삭제*를 클릭합니다. 해당 연결이 원격 스토리지 객체 목록에서 제거됩니다.
+
+
+. *저장*을 클릭합니다.
++
+수정된 연결 설정이 원격 스토리지 객체에 적용됩니다.
+
+

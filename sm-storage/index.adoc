@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/index.html 
+sidebar: sidebar 
+keywords:  
+summary:  
+---
+= SANtricity System Manager 11.9
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity System Manager를 통해 시스템 스토리지를 관리할 수 있습니다.

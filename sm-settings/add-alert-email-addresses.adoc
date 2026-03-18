@@ -1,0 +1,29 @@
+---
+permalink: sm-settings/add-alert-email-addresses.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, add, email, addresses, alerts, 
+summary: 이메일 알림 수신자를 최대 20명까지 추가할 수 있습니다. 
+---
+= SANtricity System Manager에서 알림용 이메일 주소를 추가합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이메일 알림 수신자를 최대 20명까지 추가할 수 있습니다.
+
+.단계
+. 메뉴:Settings[Alerts]를 선택합니다.
+. *Email* 탭을 선택합니다.
+. *이메일 추가*를 선택합니다.
++
+이메일 추가 대화 상자가 열립니다.
+
+. 빈 칸에 새 이메일 주소를 입력하세요. 주소를 두 개 이상 추가하려면 *다른 이메일 주소 추가*를 선택하여 새 입력란을 여세요.
+. *추가*를 클릭합니다.
+
+
+.결과
+알림 페이지의 이메일 탭에는 새 이메일 주소가 표시됩니다.

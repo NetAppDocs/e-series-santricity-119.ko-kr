@@ -1,0 +1,31 @@
+---
+permalink: sm-support/disable-autosupport-maintenance-window.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, disable, autosupport, ASUP, maintenance window 
+summary: AutoSupport 유지보수 윈도우를 비활성화하여 오류 이벤트 발생 시 자동 티켓 생성을 허용합니다. AutoSupport 유지보수 윈도우가 비활성화되면 스토리지 어레이는 문제가 발생할 경우 AutoSupport를 사용하여 지원 케이스를 생성합니다. 
+---
+= SANtricity System Manager에서 AutoSupport 유지보수 윈도우를 비활성화합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AutoSupport 유지보수 윈도우를 비활성화하여 오류 이벤트 발생 시 자동 티켓 생성을 허용합니다. AutoSupport 유지보수 윈도우가 비활성화되면 스토리지 어레이는 문제가 발생할 경우 AutoSupport를 사용하여 지원 케이스를 생성합니다.
+
+.단계
+. 메뉴에서 지원[지원 센터 > AutoSupport] 탭을 선택하세요.
+. * AutoSupport 유지보수 윈도우 비활성화*를 선택하십시오.
+. 유지보수 윈도우 비활성화 요청이 처리되었음을 확인하는 이메일을 받으려면 이메일 주소를 입력하세요.
++
+구성에 따라 최대 5개의 이메일 주소를 입력할 수 있습니다. 두 개 이상의 주소를 추가하려면 *다른 이메일 추가*를 선택하여 다른 필드를 여십시오.
+
+. *예*를 클릭합니다.
++
+AutoSupport 오류 이벤트 시 자동 티켓 생성이 활성화되어 있습니다.
+
+
+
+.완료한 후
+유지보수 윈도우는 스토리지 어레이의 요청이 AutoSupport 서버에서 처리될 때까지 종료되지 않습니다. 확인 이메일을 받으실 때까지 기다린 후 진행하십시오.
