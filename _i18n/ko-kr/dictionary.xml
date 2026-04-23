@@ -4061,7 +4061,6 @@
   <block id="329b059dca9192ebf68525b6d3e3be44" category="inline-link-macro">캐시 설정 및 성능</block>
   <block id="9f6081850e27326c653ce13711fd1f40" category="list-text"><block ref="9f6081850e27326c653ce13711fd1f40" category="inline-link-macro-rx"></block></block>
   <block id="590d98531a06e067582f8f395c25ea9d" category="inline-link-macro">자동 로드 밸런싱</block>
-  <block id="3d92225d2ee8c33ffe2c15361da54d2f" category="list-text"><block ref="3d92225d2ee8c33ffe2c15361da54d2f" category="inline-link-macro-rx"></block></block>
   <block id="b07d4a5fc9bdc2d9e09fffa5409bbab4" category="inline-link-macro">추가 기능</block>
   <block id="d9c3b504b15a55277f52a60d4aa86148" category="list-text"><block ref="d9c3b504b15a55277f52a60d4aa86148" category="inline-link-macro-rx"></block></block>
   <block id="919e659946b3b7994ecf9004d9cea4f8" category="inline-link-macro">드라이브 보안</block>
@@ -9041,4 +9040,5 @@
   <block id="5c85f810a14707d96b0f78941732e14a" category="list-text">동기식 미러링의 경우, 특정 스토리지 어레이에서 지원되는 볼륨 수에 제한이 있습니다. 스토리지 어레이에 구성된 볼륨 수가 지원되는 제한 수보다 적은지 확인하십시오. 동기식 미러링이 활성화되면 생성되는 두 개의 예약 용량 볼륨이 볼륨 제한에 포함됩니다.</block>
   <block id="2c0d7cdf55bdb12e152430a4a5b9c7e5" category="paragraph">비동기 미러링:</block>
   <block id="f6082ab3e1c76ce4a981259403dbffb2" category="paragraph">동기식 미러링:</block>
+  <block id="bc7dec44af17b73eb800d426c3a75c9f" category="list-text"><block ref="bc7dec44af17b73eb800d426c3a75c9f" category="inline-link-macro-rx"></block></block>
 </blocks>
