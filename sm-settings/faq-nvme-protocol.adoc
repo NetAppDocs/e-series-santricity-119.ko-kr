@@ -16,6 +16,7 @@ summary: 이 FAQ는 질문에 대한 빠른 답변을 찾고 있을 때 도움�
 
 
 
+[[how-do-i-interpret-nvme-over-fabrics-statistics]]
 == NVMe over Fabrics 통계를 어떻게 해석해야 하나요?
 
 View NVMe over Fabrics Statistics 대화 상자에는 NVMe 서브시스템 및 RDMA 인터페이스에 대한 통계가 표시됩니다. 모든 통계는 읽기 전용이며 설정할 수 없습니다.
@@ -28,6 +29,7 @@ View NVMe over Fabrics Statistics 대화 상자에는 NVMe 서브시스템 및 R
 
 
 
+[[what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband]]
 == NVMe over InfiniBand를 구성하거나 진단하기 위해 다른 어떤 작업을 수행해야 합니까?
 
 다음 표는 NVMe over InfiniBand 세션을 구성하고 관리하는 데 사용할 수 있는 SANtricity System Manager 기능 목록입니다.
@@ -69,6 +71,7 @@ InfiniBand를 통한 NVMe 통계 보기
 |===
 
 
+[[what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce]]
 == RoCE를 통한 NVMe를 구성하거나 진단하기 위해 추가로 수행해야 하는 작업은 무엇입니까?
 
 하드웨어 및 설정 페이지에서 NVMe over RoCE를 구성하고 관리할 수 있습니다.
@@ -110,6 +113,7 @@ NVMe over Fabrics 통계 보기
 |===
 
 
+[[why-are-there-two-ip-addresses-for-one-physical-port]]
 == 하나의 물리적 포트에 두 개의 IP 주소가 있는 이유는 무엇입니까?
 
 EF600 스토리지 어레이에는 외부 HIC 1개와 내부 HIC 1개 등 2개의 HIC가 포함될 수 있습니다.
@@ -120,6 +124,7 @@ EF600 스토리지 어레이에는 외부 HIC 1개와 내부 HIC 1개 등 2개�
 
 
 
+[[why-are-there-two-sets-of-parameters-for-one-physical-port]]
 == 물리적 포트 하나에 두 가지 매개변수 세트가 있는 이유는 무엇입니까?
 
 EF600 스토리지 어레이에는 외부 HIC 1개와 내부 HIC 1개 등 2개의 HIC가 포함될 수 있습니다.

@@ -17,6 +17,7 @@ Drive Security는 FDE(Full Disk Encryption) 드라이브 또는 FIPS(Federal Inf
 
 
 
+[[how-to-implement-drive-security]]
 == 드라이브 보안을 구현하는 방법
 
 드라이브 보안을 구현하려면 다음 단계를 수행하십시오.
@@ -33,6 +34,7 @@ Drive Security는 FDE(Full Disk Encryption) 드라이브 또는 FIPS(Federal Inf
 
 
 
+[[how-drive-security-works-at-the-drive-level]]
 == 드라이브 수준에서 Drive Security가 작동하는 방식
 
 FDE 또는 FIPS 암호화 방식을 사용하는 보안 드라이브는 쓰기 시 데이터를 암호화하고 읽기 시 데이터를 복호화합니다. 이러한 암호화 및 복호화 과정은 성능이나 사용자 작업 흐름에 영향을 미치지 않습니다. 각 드라이브는 고유한 암호화 키를 가지고 있으며, 이 키는 드라이브 외부로 절대 전송할 수 없습니다.
@@ -41,6 +43,7 @@ Drive Security 기능은 보안 가능 드라이브를 통해 추가 보호 계�
 
 
 
+[[how-drive-security-works-at-the-storage-array-level]]
 == 스토리지 어레이 수준에서 드라이브 보안이 작동하는 방식
 
 Drive Security 기능을 사용하면 스토리지 어레이의 보안 지원 드라이브와 컨트롤러 간에 공유되는 보안 키를 생성할 수 있습니다. 드라이브의 전원이 꺼졌다 켜질 때마다 보안 지원 드라이브는 컨트롤러가 보안 키를 적용할 때까지 Security Locked 상태로 변경됩니다.
@@ -54,6 +57,7 @@ Drive Security 기능을 사용하면 스토리지 어레이의 보안 지원 �
 ====
 
 
+[[how-drive-security-works-at-the-volume-level]]
 == 볼륨 수준에서 드라이브 보안이 작동하는 방식
 
 보안 기능을 지원하는 드라이브로 풀 또는 볼륨 그룹을 생성할 때 해당 풀 또는 볼륨 그룹에 대해 드라이브 보안을 활성화할 수도 있습니다. 드라이브 보안 옵션을 사용하면 드라이브와 연결된 볼륨 그룹 및 풀이 보안_활성화_됩니다.

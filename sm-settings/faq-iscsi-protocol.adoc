@@ -16,6 +16,7 @@ summary: 이 FAQ는 질문에 대한 빠른 답변을 찾고 있을 때 도움�
 
 
 
+[[what-happens-when-i-use-an-isns-server-for-registration]]
 == iSNS 서버를 등록에 사용하면 어떻게 되나요?
 
 iSNS(Internet Storage Name Service) 서버 정보를 사용하는 경우 호스트(이니시에이터)를 iSNS 서버에 쿼리하여 타겟(컨트롤러)에서 정보를 검색하도록 구성할 수 있습니다.
@@ -24,6 +25,7 @@ iSNS(Internet Storage Name Service) 서버 정보를 사용하는 경우 호스�
 
 
 
+[[which-registration-methods-are-automatically-supported-for-iscsi]]
 == iSCSI에 대해 자동으로 지원되는 등록 방법은 무엇입니까?
 
 iSCSI 구현은 Internet Storage Name Service(iSNS) 검색 방식 또는 Send Targets 명령 사용을 지원합니다.
@@ -34,6 +36,7 @@ iSNS를 구성하지 않은 경우, iSCSI 호스트는 iSCSI 검색 세션 중�
 
 
 
+[[how-do-i-interpret-iser-over-infiniband-statistics]]
 == InfiniBand를 통한 iSER 통계를 어떻게 해석해야 하나요?
 
 iSER over InfiniBand 통계 보기 대화 상자에는 로컬 대상(프로토콜) 통계와 iSER over InfiniBand(IB) 인터페이스 통계가 표시됩니다. 모든 통계는 읽기 전용이며 설정할 수 없습니다.
@@ -46,6 +49,7 @@ iSER over InfiniBand 통계 보기 대화 상자에는 로컬 대상(프로토�
 
 
 
+[[what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband]]
 == InfiniBand를 통해 iSER을 구성하거나 진단하려면 다른 어떤 작업을 수행해야 합니까?
 
 다음 표는 InfiniBand를 통한 iSER 세션을 구성하고 관리하는 데 사용할 수 있는 SANtricity System Manager 기능을 나열합니다.
@@ -87,6 +91,7 @@ InfiniBand를 통한 iSER 통계 보기
 |===
 
 
+[[what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi]]
 == iSCSI를 구성하거나 진단하려면 추가로 무엇을 해야 합니까?
 
 iSCSI 세션은 비동기 미러 관계의 호스트 또는 원격 스토리지 어레이와 함께 발생할 수 있습니다. 다음 표에는 이러한 iSCSI 세션을 구성하고 관리하는 데 사용할 수 있는 SANtricity System Manager 기능이 나열되어 있습니다.
@@ -98,6 +103,7 @@ iSCSI 설정은 스토리지 어레이가 iSCSI를 지원하는 경우에만 사
 ====
 
 
+[[configure-iscsi]]
 === iSCSI 구성
 
 [cols="1a,1a"]
@@ -142,6 +148,7 @@ iSCSI 포트 구성
 |===
 
 
+[[diagnose-iscsi]]
 === iSCSI 진단
 
 [cols="1a,1a"]

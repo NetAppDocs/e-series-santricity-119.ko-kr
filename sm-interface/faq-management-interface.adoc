@@ -16,6 +16,7 @@ summary: 이 FAQ는 질문에 대한 빠른 답변을 찾고 있을 때 도움�
 
 
 
+[[what-are-the-supported-browsers]]
 == 지원되는 브라우저는 무엇입니까?
 
 SANtricity System Manager는 다음 브라우저 버전을 지원합니다.
@@ -54,12 +55,14 @@ Microsoft Edge
 |===
 
 
+[[what-are-the-keyboard-shortcuts]]
 == 키보드 단축키는 무엇입니까?
 
 키보드만 사용하여 SANtricity System Manager를 탐색할 수 있습니다.
 
 
 
+[[overall-navigation]]
 === 전체 탐색
 
 [cols="1a,1a"]
@@ -117,6 +120,7 @@ Shift + Tab
 |===
 
 
+[[table-navigation]]
 === 테이블 탐색
 
 [cols="1a,1a"]
@@ -146,6 +150,7 @@ Tab 키를 눌러 열 머리글을 선택한 다음 Enter 키를 누르십시오
 |===
 
 
+[[calendar-navigation]]
 === 캘린더 탐색
 
 [cols="1a,1a"]
@@ -245,6 +250,7 @@ Esc
 |===
 
 
+[[how-do-performance-statistics-for-individual-volumes-relate-to-the-total]]
 == 개별 볼륨에 대한 성능 통계는 전체와 어떤 관계가 있습니까?
 
 풀 및 볼륨 그룹에 대한 통계는 예약된 용량 볼륨을 포함한 모든 볼륨을 집계하여 계산됩니다.
@@ -255,6 +261,7 @@ Esc
 
 
 
+[[why-does-data-display-as-zero-in-the-graphs-and-table]]
 == 그래프와 표에서 데이터가 0으로 표시되는 이유는 무엇입니까?
 
 그래프와 표에서 데이터 포인트 값이 0으로 표시되는 경우, 해당 시점에 해당 객체에 대한 I/O 활동이 없음을 의미합니다. 이러한 상황은 호스트가 해당 객체에 대한 I/O를 시작하지 않거나 객체 자체에 문제가 있는 경우에 발생할 수 있습니다.
@@ -315,6 +322,7 @@ Esc
 |===
 
 
+[[what-does-the-latency-graph-show]]
 == 지연 시간 그래프에는 무엇이 표시됩니까?
 
 지연 시간 그래프는 볼륨, 볼륨 그룹, 풀, 애플리케이션 및 워크로드에 대한 지연 시간 통계를 밀리초(ms) 단위로 제공합니다. 이 그래프는 논리적 보기, 물리적 보기 및 애플리케이션 및 워크로드 보기 탭에 표시됩니다.
@@ -328,6 +336,7 @@ Esc
 
 
 
+[[what-does-the-iops-graph-show]]
 == IOPS 그래프에는 무엇이 표시됩니까?
 
 IOPS 그래프는 초당 입출력 작업 통계를 표시합니다. 홈 페이지에서는 스토리지 어레이에 대한 통계가 표시됩니다. 성능 타일의 논리적 보기, 물리적 보기, 애플리케이션 및 워크로드 보기 탭에서는 스토리지 어레이, 볼륨, 볼륨 그룹, 풀, 애플리케이션 및 워크로드에 대한 통계가 표시됩니다.
@@ -341,6 +350,7 @@ IOPS는 _초당 입출력(I/O) 작업_의 약자입니다. 그래프의 특정 �
 
 
 
+[[what-does-the-mibs-graph-show]]
 == MiB/s 그래프는 무엇을 보여줍니까?
 
 MiB/s 그래프는 초당 메비바이트 단위로 전송 속도 통계를 표시합니다. 홈 페이지에서 이 그래프는 스토리지 어레이에 대한 통계를 표시합니다. Performance 타일의 Logical View, Physical View 및 Applications & Workloads View 탭에서 이 그래프는 스토리지 어레이, 볼륨, 볼륨 그룹, 풀, 애플리케이션 및 워크로드에 대한 통계를 표시합니다.
@@ -354,6 +364,7 @@ MiB/s는 _mebibytes per second_의 약자로, 초당 1,048,576바이트를 의�
 
 
 
+[[what-does-the-cpu-graph-show]]
 == CPU 그래프에는 무엇이 표시됩니까?
 
 CPU 그래프는 각 컨트롤러(컨트롤러 A와 컨트롤러 B)의 처리 용량 통계를 표시합니다. CPU는 _central processing unit_의 약자입니다. 홈 페이지에서는 이 그래프에 스토리지 어레이에 대한 통계가 표시됩니다. 성능 타일의 물리적 보기 탭에서는 이 그래프에 스토리지 어레이와 드라이브에 대한 통계가 표시됩니다.
@@ -362,6 +373,7 @@ CPU 그래프는 어레이에서 수행되는 작업에 대한 CPU 처리 용량
 
 
 
+[[what-does-the-headroom-graph-show]]
 == Headroom 그래프는 무엇을 보여줍니까?
 
 헤드룸 그래프는 스토리지 어레이 컨트롤러의 잔여 성능 용량과 관련이 있습니다. 이 그래프는 홈 페이지와 성능 타일의 물리적 보기 탭에서 확인할 수 있습니다.
@@ -370,6 +382,7 @@ CPU 그래프는 어레이에서 수행되는 작업에 대한 CPU 처리 용량
 
 
 
+[[where-can-i-find-more-information-about-display-preferences]]
 == 디스플레이 기본 설정에 대한 자세한 정보는 어디에서 찾을 수 있습니까?
 
 사용 가능한 디스플레이 옵션에 대한 정보를 찾으려면:

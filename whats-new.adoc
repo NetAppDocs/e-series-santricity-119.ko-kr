@@ -16,18 +16,44 @@ summary: SANtricity OS의 새로운 기능.
 
 
 
+[[new-features-in-version-11-90r6]]
+== 버전 11.90R6의 새로운 기능
+
+[cols="35h,~"]
+|===
+| 새로운 기능 | 설명 
+
+
+ a| 
+IOM/DCM 펌웨어 버전 지원 업데이트
+ a| 
+다음 IOM/DCM 모델에 대해 새로운 IOM/DCM 펌웨어 버전이 지원됩니다.
+
+* IOM12A - v0412
+* IOM12B - v0212
+* IOM12C - v0112
+* IOM12G - v0212
+* DCM3 - v01.12.09.02
+
+
+|===
+
+
+[[new-features-in-version-11-90r5]]
 == 버전 11.90R5의 새로운 기능
 
 이 버전에는 버그 수정 사항만 포함되어 있으며 새로운 기능은 추가되지 않았습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 E-Series SANtricity OS 11.90R5 README를 참조하십시오.
 
 
 
+[[new-features-in-version-11-90r4]]
 == 버전 11.90R4의 새로운 기능
 
 이 버전에는 사소한 변경 사항만 포함되어 있으며 새로운 기능은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 E-Series SANtricity OS 11.90R4 README를 참조하십시오.
 
 
 
+[[new-features-in-version-11-90r3]]
 == 버전 11.90R3의 새로운 기능
 
 [cols="35h,~"]
@@ -43,12 +69,14 @@ IOM12C 및 DCM3에 대한 SANtricity OS 지원
 |===
 
 
+[[new-features-in-version-11-90r2]]
 == 버전 11.90R2의 새로운 기능
 
 이 버전에는 사소한 변경 사항만 포함되어 있으며 새로운 기능은 없습니다. 이번 릴리스의 변경 사항에 대한 자세한 내용은 https://library.netapp.com/ecm/ecm_download_file/ECMLP3334464["E-Series 11.90 릴리스 노트"^]를 참조하십시오.
 
 
 
+[[new-features-in-version-11-90r1]]
 == 버전 11.90R1의 새로운 기능
 
 [cols="35h,~"]
@@ -71,6 +99,7 @@ E4000 컨트롤러는 이제 12Gb SAS 호스트 인터페이스 카드를 지원
 |===
 
 
+[[new-features-in-version-11-90]]
 == 버전 11.90의 새로운 기능
 
 [cols="35h,~"]

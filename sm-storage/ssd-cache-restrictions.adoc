@@ -15,6 +15,7 @@ summary: 스토리지 어레이에서 SSD Cache를 사용할 때의 제한 사�
 
 
 
+[[restrictions]]
 == 제한 사항
 
 * 컨트롤러의 SSD Cache를 사용하도록 할당된 볼륨은 자동 로드 밸런스 전송 대상이 아닙니다.
@@ -27,6 +28,7 @@ summary: 스토리지 어레이에서 SSD Cache를 사용할 때의 제한 사�
 
 
 
+[[restrictions-with-drive-security]]
 == 드라이브 보안 관련 제한 사항
 
 * SSD Cache에 대한 보안은 SSD Cache를 생성할 때만 활성화할 수 있습니다. 볼륨에서처럼 나중에 보안을 활성화할 수는 없습니다.

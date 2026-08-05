@@ -15,6 +15,7 @@ SANtricity Unified Manager를 사용하면 하나의 스토리지 어레이에�
 
 
 
+[[settings-available-for-import]]
 == 가져오기에 사용할 수 있는 설정
 
 다음 구성은 여러 어레이로 가져올 수 있습니다.
@@ -40,6 +41,7 @@ SANtricity Unified Manager를 사용하면 하나의 스토리지 어레이에�
 
 
 
+[[configuration-workflow]]
 == 구성 워크플로우
 
 설정을 가져오려면 다음 워크플로를 따르십시오.

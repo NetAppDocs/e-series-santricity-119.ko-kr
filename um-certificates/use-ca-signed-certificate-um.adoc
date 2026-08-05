@@ -22,6 +22,7 @@ CA 서명 인증서를 사용하는 절차는 세 단계로 이루어집니다.
 
 
 
+[[step-1-complete-a-csr-file]]
 == 1단계: CSR 파일 작성
 
 먼저 조직과 Web Services Proxy 및 Unified Manager가 설치된 호스트 시스템을 식별하는 인증서 서명 요청(CSR) 파일을 생성해야 합니다.
@@ -57,6 +58,7 @@ CA 서명 인증서를 사용하는 절차는 세 단계로 이루어집니다.
 
 
 
+[[step-2-submit-csr-file]]
 == 2단계: CSR 파일 제출
 
 인증서 서명 요청(CSR) 파일을 생성한 후에는 해당 파일을 인증 기관(CA)으로 보내 Unified Manager 및 Web Services Proxy를 호스팅하는 시스템에 대한 서명된 관리 인증서를 받습니다.
@@ -81,6 +83,7 @@ NOTE: E-Series 시스템은 서명된 인증서에 PEM 형식(Base64 ASCII 인�
 
 
 
+[[step-3-import-management-certificates]]
 == 3단계: 관리 인증서 가져오기
 
 인증 기관(CA)으로부터 서명된 인증서를 받은 후 Web Services Proxy 및 Unified Manager 인터페이스가 설치된 호스트 시스템으로 인증서를 가져오십시오.

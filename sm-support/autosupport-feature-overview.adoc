@@ -19,6 +19,7 @@ AutoSupport 데이터에는 스토리지 어레이의 구성, 상태, 성능 및
 
 
 
+[[key-benefits]]
 == 주요 이점
 
 AutoSupport 기능의 주요 이점은 다음과 같습니다.
@@ -33,6 +34,7 @@ AutoSupport 기능의 주요 이점은 다음과 같습니다.
 
 
 
+[[individual-autosupport-features]]
 == 개별 AutoSupport 기능
 
 AutoSupport 기능은 세 가지 개별 기능으로 구성되어 있으며, 각 기능은 별도로 활성화해야 합니다.
@@ -44,6 +46,7 @@ AutoSupport 기능은 세 가지 개별 기능으로 구성되어 있으며, 각
 
 
 
+[[difference-between-autosupport-and-collect-support-data]]
 == AutoSupport와 지원 데이터 수집의 차이점
 
 스토리지 어레이에는 지원 데이터를 수집하는 두 가지 방법이 있습니다.

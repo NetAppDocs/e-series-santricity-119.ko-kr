@@ -15,6 +15,7 @@ summary: 풀 또는 볼륨 그룹을 사용하여 볼륨을 생성할 수 있습
 
 
 
+[[reasons-to-choose-a-pool-or-volume-group]]
 == 풀 또는 볼륨 그룹을 선택하는 이유
 
 *풀 선택*
@@ -40,6 +41,7 @@ summary: 풀 또는 볼륨 그룹을 사용하여 볼륨을 생성할 수 있습
 ====
 
 
+[[feature-differences-between-pools-and-volume-groups]]
 == 풀과 볼륨 그룹 간의 기능 차이
 
 다음 표는 볼륨 그룹과 풀 간의 기능 비교를 제공합니다.
@@ -149,6 +151,7 @@ SSD(Solid State Disk) 지원
 |===
 
 
+[[functional-comparison-of-pools-and-volume-groups]]
 == 풀과 볼륨 그룹의 기능적 비교
 
 풀과 볼륨 그룹의 기능과 목적은 동일합니다. 둘 다 스토리지 어레이에서 논리적으로 그룹화된 드라이브 집합이며 호스트가 액세스할 수 있는 볼륨을 생성하는 데 사용됩니다.

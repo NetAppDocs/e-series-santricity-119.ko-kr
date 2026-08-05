@@ -15,6 +15,7 @@ SANtricity Unified Manager에서 사용자 인증을 설정하려면 액세스 �
 
 
 
+[[configuration-workflow]]
 == 구성 워크플로우
 
 액세스 관리 구성은 다음과 같이 작동합니다.
@@ -47,6 +48,7 @@ SANtricity Unified Manager에서 사용자 인증을 설정하려면 액세스 �
 
 
 
+[[functions-available-in-unified-manager]]
 == Unified Manager에서 사용 가능한 기능
 
 기능에 대한 액세스는 사용자에게 할당된 역할에 따라 달라지며, 여기에는 다음이 포함됩니다.

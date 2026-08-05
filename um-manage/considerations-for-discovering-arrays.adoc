@@ -15,12 +15,14 @@ SANtricity Unified Manager가 스토리지 리소스를 표시하고 관리하�
 
 
 
+[[discovering-multiple-storage-arrays]]
 == 여러 스토리지 어레이 검색
 
 여러 스토리지 어레이를 검색하도록 선택한 경우 네트워크 IP 주소 범위를 입력해야 하며, Unified Manager는 해당 범위 내의 각 IP 주소에 개별적으로 연결을 시도합니다. 연결에 성공한 스토리지 어레이는 검색 페이지에 표시되며 관리 도메인에 추가할 수 있습니다.
 
 
 
+[[discovering-a-single-storage-array]]
 == 단일 스토리지 어레이 검색
 
 단일 어레이를 검색하도록 선택한 경우 스토리지 어레이의 컨트롤러 중 하나에 대한 단일 IP 주소를 입력하면 개별 스토리지 어레이가 추가됩니다.
@@ -32,12 +34,14 @@ Unified Manager는 컨트롤러에 할당된 단일 IP 주소 또는 IP 주소 �
 ====
 
 
+[[user-credentials]]
 == 사용자 자격 증명
 
 검색 과정의 일부로, 추가하려는 각 스토리지 어레이에 대한 관리자 암호를 제공해야 합니다.
 
 
 
+[[web-services-certificates]]
 == 웹 서비스 인증서
 
 검색 프로세스의 일부로 Unified Manager는 검색된 스토리지 어레이가 신뢰할 수 있는 소스의 인증서를 사용하고 있는지 확인합니다. Unified Manager는 브라우저와 설정하는 모든 연결에 대해 두 가지 유형의 인증서 기반 인증을 사용합니다.

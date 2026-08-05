@@ -15,6 +15,7 @@ SANtricity System Manager는 드라이브의 다양한 상태를 보고합니다
 
 
 
+[[accessibility-states]]
 == 접근성 상태
 
 [cols="25h,~"]
@@ -63,6 +64,7 @@ SANtricity System Manager는 드라이브의 다양한 상태를 보고합니다
 |===
 
 
+[[role-states]]
 == 역할 상태
 
 [cols="25h,~"]
@@ -99,6 +101,7 @@ SANtricity System Manager는 드라이브의 다양한 상태를 보고합니다
 |===
 
 
+[[availability-states]]
 == 가용성 상태
 
 [cols="25h,~"]

@@ -15,6 +15,7 @@ summary: '액세스 관리를 위해 관리자는 어레이에 내장된 Securit
 
 
 
+[[configuration-workflow]]
 == 구성 워크플로우
 
 SAML 구성은 다음과 같이 작동합니다.
@@ -49,6 +50,7 @@ SAML이 활성화되면 사용자 인터페이스를 통해 비활성화할 수 
 
 
 
+[[management]]
 == 관리
 
 SAML을 사용하여 인증할 때 관리자는 다음과 같은 관리 작업을 수행할 수 있습니다.
@@ -59,6 +61,7 @@ SAML을 사용하여 인증할 때 관리자는 다음과 같은 관리 작업�
 
 
 
+[[access-restrictions]]
 == 액세스 제한
 
 SAML이 활성화된 경우 사용자는 Unified Manager 또는 레거시 Storage Manager 인터페이스에서 해당 어레이의 스토리지를 검색하거나 관리할 수 없습니다.
@@ -73,6 +76,7 @@ SAML이 활성화된 경우 사용자는 Unified Manager 또는 레거시 Storag
 
 
 
+[[limited-connectivity-with-saml-enabled]]
 === SAML이 활성화된 상태에서 연결이 제한됩니다
 
 다음 스토리지 어레이 기능은 SAML이 활성화된 경우 JSON Web Token 인증과의 연결이 제한적입니다.

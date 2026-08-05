@@ -15,6 +15,7 @@ summary: 스토리지 어레이 세트를 그룹화하여 물리적 및 가상�
 
 
 
+[[types-of-storage-array-groups]]
 == 스토리지 어레이 그룹 유형
 
 * *모든 그룹*

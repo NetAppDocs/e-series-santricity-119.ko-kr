@@ -41,6 +41,7 @@ System Manager는 다음과 같은 유형의 iSCSI 통계를 표시합니다. �
 
 
 
+[[mac-transmit-and-mac-receive-statistics]]
 == MAC 송신 및 MAC 수신 통계
 
 이더넷 MAC 통계를 선택하면 수신 및 송신 통계가 모두 표시됩니다. 각 통계는 원시 통계 또는 기준 통계로 볼 수 있습니다.
@@ -273,6 +274,7 @@ CSE
 ====
 
 
+[[ethernet-tcpip-statistics]]
 == 이더넷 TCP/IP 통계
 
 이더넷 TCP/IP 통계를 선택하면 TCP 및 IP 통계가 모두 표시됩니다. 각 통계는 원시 통계 또는 기준 통계로 볼 수 있습니다.
@@ -463,6 +465,7 @@ DRE-TOC
 ====
 
 
+[[iscsi-target-statistics-and-local-initiator-statistics]]
 == iSCSI 타겟 통계 및 로컬 이니시에이터 통계
 
 타겟(프로토콜) 통계 또는 로컬 이니시에이터(프로토콜) 통계를 선택하면 iSCSI 통계가 표시됩니다. 이러한 각 통계를 원시 통계 또는 기준 통계로 볼 수 있습니다.
@@ -547,6 +550,7 @@ UCT
 ====
 
 
+[[dcbx-operational-state-statistics]]
 == DCBX 운영 상태 통계
 
 Data Center Bridging Exchange(DCBX) 운영 상태 통계를 선택하면 DCBX 통계가 표시됩니다.
@@ -606,6 +610,7 @@ NOTE: 상태 캡처 파일에서 추가 DCBX 운영 상태 통계를 확인할 �
 
 
 
+[[lldp-tlv-statistics]]
 == LLDP TLV 통계
 
 링크 계층 검색 프로토콜(LLDP) 유형 길이 값(TLV) 통계를 선택하면 로컬 장치와 원격 장치에 대한 두 가지 통계 세트가 표시됩니다. 로컬 장치는 컨트롤러를 나타냅니다. 원격 장치는 컨트롤러가 연결된 피어 장치(일반적으로 스위치)를 나타냅니다.
@@ -665,6 +670,7 @@ NOTE: 상태 캡처 파일에서 추가 LLDP TLV 통계를 확인할 수 있습�
 
 
 
+[[dcbx-tlv-statistics]]
 == DCBX TLV 통계
 
 Data Center Bridging Exchange(DCBX) Type Length Value(TLV) 통계를 선택하면 다음과 같은 통계가 표시됩니다.

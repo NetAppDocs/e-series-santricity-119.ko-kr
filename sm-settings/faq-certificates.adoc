@@ -16,6 +16,7 @@ summary: 이 FAQ는 질문에 대한 빠른 답변을 찾고 있을 때 도움�
 
 
 
+[[why-does-the-cannot-access-other-controller-dialog-box-appear]]
 == '다른 컨트롤러에 액세스할 수 없습니다' 대화 상자가 나타나는 이유는 무엇입니까?
 
 CA 인증서와 관련된 특정 작업(예: 인증서 가져오기)을 수행할 때 두 번째 컨트롤러에 대해 자체 서명된 인증서를 수락할지 묻는 대화 상자가 표시될 수 있습니다.
@@ -32,6 +33,7 @@ CA 인증서와 관련된 특정 작업(예: 인증서 가져오기)을 수행�
 
 
 
+[[how-do-i-know-what-certificates-need-to-be-uploaded-to-santricity-system-manager-for-external-key-management]]
 == 외부 키 관리를 위해 SANtricity System Manager에 업로드해야 하는 인증서가 무엇인지 어떻게 알 수 있습니까?
 
 외부 키 관리를 위해서는 스토리지 시스템과 키 관리 서버 간의 인증을 위해 두 가지 유형의 인증서를 가져와야 하며, 이를 통해 두 구성 요소가 서로 신뢰할 수 있게 됩니다.
@@ -46,6 +48,7 @@ CA 인증서와 관련된 특정 작업(예: 인증서 가져오기)을 수행�
 
 
 
+[[what-do-i-need-to-know-about-certificate-revocation-checking]]
 == 인증서 해지 확인에 대해 알아야 할 사항은 무엇입니까?
 
 SANtricity System Manager를 사용하면 인증서 폐지 목록(CRL)을 업로드하는 대신 온라인 인증서 상태 프로토콜(OCSP) 서버를 사용하여 폐지된 인증서를 확인할 수 있습니다.
@@ -61,6 +64,7 @@ System Manager 또는 명령줄 인터페이스(CLI)에서 OCSP 응답자 주소
 ====
 
 
+[[what-types-of-servers-will-revocation-checking-be-enabled-for]]
 == 해지 확인이 활성화될 서버 유형은 무엇입니까?
 
 스토리지 어레이는 AutoSupport 서버, 외부 키 관리 서버(EKMS), SSL 기반 경량 디렉터리 액세스 프로토콜(LDAPS) 서버 또는 Syslog 서버에 연결될 때마다 해지 확인을 수행합니다.

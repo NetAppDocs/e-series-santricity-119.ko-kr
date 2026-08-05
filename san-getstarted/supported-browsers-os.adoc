@@ -15,6 +15,7 @@ SANtricity 소프트웨어는 여러 유형의 브라우저와 운영 체제를 
 
 
 
+[[browsers]]
 == 브라우저
 
 다음 브라우저 및 버전이 지원됩니다.
@@ -58,6 +59,7 @@ Unified Manager의 경우 Web Services Proxy를 설치하고 브라우저에서 
 ====
 
 
+[[operating-systems]]
 == 운영 체제
 
 다음 운영 체제 및 버전이 지원됩니다.

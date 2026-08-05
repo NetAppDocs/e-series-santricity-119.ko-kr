@@ -16,6 +16,7 @@ summary: 이 FAQ는 질문에 대한 빠른 답변을 찾고 있을 때 도움�
 
 
 
+[[what-do-i-need-to-know-before-creating-a-security-key]]
 == 보안 키를 생성하기 전에 알아야 할 사항은 무엇입니까?
 
 보안 키는 스토리지 어레이 내의 컨트롤러와 보안 지원 드라이브에서 공유됩니다. 보안 지원 드라이브가 스토리지 어레이에서 제거되더라도 보안 키를 통해 데이터가 무단 접근으로부터 보호됩니다.
@@ -28,6 +29,7 @@ summary: 이 FAQ는 질문에 대한 빠른 답변을 찾고 있을 때 도움�
 
 
 
+[[internal-key-management]]
 === 내부 키 관리
 
 내부 키는 컨트롤러의 영구 메모리에서 접근할 수 없는 위치에 "`hidden`" 상태로 유지됩니다. 내부 보안 키를 생성하기 전에 다음을 수행해야 합니다.
@@ -40,6 +42,7 @@ summary: 이 FAQ는 질문에 대한 빠른 답변을 찾고 있을 때 도움�
 
 
 
+[[external-key-management]]
 === 외부 키 관리
 
 외부 키는 KMIP(Key Management Interoperability Protocol)를 사용하여 별도의 키 관리 서버에서 관리됩니다. 외부 보안 키를 생성하기 전에 다음을 수행해야 합니다.
@@ -60,12 +63,14 @@ summary: 이 FAQ는 질문에 대한 빠른 답변을 찾고 있을 때 도움�
 
 
 
+[[why-do-i-need-to-define-a-pass-phrase]]
 == 암호 문구를 정의해야 하는 이유는 무엇입니까?
 
 암호는 로컬 관리 클라이언트에 저장된 보안 키 파일을 암호화하고 복호화하는 데 사용됩니다. 암호가 없으면 보안 키를 복호화할 수 없으며, 보안이 활성화된 드라이브를 다른 스토리지 어레이에 다시 설치할 경우 해당 드라이브의 데이터를 잠금 해제하는 데 사용할 수 없습니다.
 
 
 
+[[why-is-it-important-to-record-security-key-information]]
 == 보안 키 정보를 기록하는 것이 왜 중요합니까?
 
 보안 키 정보를 분실하고 백업이 없는 경우, 보안 기능이 활성화된 드라이브를 이동하거나 컨트롤러를 업그레이드할 때 데이터가 손실될 수 있습니다. 드라이브의 데이터를 잠금 해제하려면 보안 키가 필요합니다.
@@ -74,6 +79,7 @@ summary: 이 FAQ는 질문에 대한 빠른 답변을 찾고 있을 때 도움�
 
 
 
+[[what-do-i-need-to-know-before-backing-up-a-security-key]]
 == 보안 키를 백업하기 전에 알아야 할 사항은 무엇입니까?
 
 원래 보안 키가 손상되었고 백업이 없는 경우, 드라이브가 한 스토리지 어레이에서 다른 스토리지 어레이로 마이그레이션되면 드라이브의 데이터에 액세스할 수 없게 됩니다.
@@ -99,6 +105,7 @@ Drive Security의 암호는 스토리지 어레이의 Administrator 암호와 �
 
 
 
+[[what-do-i-need-to-know-before-unlocking-secure-drives]]
 == 보안 드라이브 잠금 해제 전에 알아야 할 사항은 무엇입니까?
 
 보안이 활성화된 드라이브의 데이터를 잠금 해제하려면 보안 키를 가져와야 합니다.
@@ -113,6 +120,7 @@ Drive Security의 암호는 스토리지 어레이의 Administrator 암호와 �
 
 
 
+[[what-is-readwrite-accessibility]]
 == 읽기/쓰기 액세스 가능성이란 무엇입니까?
 
 드라이브 설정 창에는 드라이브 보안 속성에 대한 정보가 포함되어 있습니다. "읽기/쓰기 액세스 가능"은 드라이브 데이터가 잠겨 있는지 여부를 나타내는 속성 중 하나입니다.
@@ -121,6 +129,7 @@ Drive Security의 암호는 스토리지 어레이의 Administrator 암호와 �
 
 
 
+[[what-do-i-need-to-know-about-validating-the-security-key]]
 == 보안 키 유효성 검사에 대해 알아야 할 사항은 무엇입니까?
 
 보안 키를 생성한 후에는 키 파일의 유효성을 검사하여 손상되지 않았는지 확인해야 합니다.
@@ -134,6 +143,7 @@ Drive Security의 암호는 스토리지 어레이의 Administrator 암호와 �
 
 
 
+[[what-is-the-difference-between-internal-security-key-and-external-security-key-management]]
 == 내부 보안 키 관리와 외부 보안 키 관리의 차이점은 무엇입니까?
 
 드라이브 보안 기능을 구현하면 내부 보안 키 또는 외부 보안 키를 사용하여 보안이 활성화된 드라이브가 스토리지 어레이에서 제거될 때 데이터를 잠글 수 있습니다.

@@ -16,6 +16,7 @@ summary: 이 FAQ는 질문에 대한 빠른 답변을 찾고 있을 때 도움�
 
 
 
+[[why-cant-i-log-in]]
 == 로그인할 수 없는 이유는 무엇입니까?
 
 SANtricity System Manager에 로그인하려고 할 때 오류가 발생하는 경우 다음과 같은 가능한 원인을 검토하십시오.
@@ -39,6 +40,7 @@ System Manager 로그인 오류는 다음과 같은 이유로 발생할 수 있�
 
 
 
+[[what-do-i-need-to-know-before-adding-a-directory-server]]
 == 디렉터리 서버를 추가하기 전에 알아야 할 사항은 무엇입니까?
 
 Access Management에서 디렉터리 서버를 추가하기 전에 다음 요구 사항을 충족하는지 확인하십시오.
@@ -50,6 +52,7 @@ Access Management에서 디렉터리 서버를 추가하기 전에 다음 요구
 
 
 
+[[what-do-i-need-to-know-about-mapping-to-storage-array-roles]]
 == 스토리지 어레이 역할 매핑에 대해 알아야 할 사항은 무엇입니까?
 
 그룹에 역할을 매핑하기 전에 다음 지침을 검토하십시오.
@@ -64,6 +67,7 @@ Access Management에서 디렉터리 서버를 추가하기 전에 다음 요구
 
 
 
+[[directory-services]]
 === 디렉토리 서비스
 
 LDAP(Lightweight Directory Access Protocol) 서버 및 Directory Services를 사용하는 경우 다음을 확인하십시오.
@@ -80,6 +84,7 @@ LDAP(Lightweight Directory Access Protocol) 서버 및 Directory Services를 사
 
 
 
+[[saml]]
 === SAML
 
 스토리지 어레이에 내장된 SAML(Security Assertion Markup Language) 기능을 사용하는 경우 다음을 확인하십시오.
@@ -97,12 +102,14 @@ LDAP(Lightweight Directory Access Protocol) 서버 및 Directory Services를 사
 
 
 
+[[which-external-management-tools-may-be-affected-by-this-change]]
 == 이 변경으로 인해 영향을 받을 수 있는 외부 관리 툴은 무엇입니까?
 
 SANtricity System Manager에서 관리 인터페이스 전환 또는 인증 방법에 SAML 사용과 같은 특정 변경 작업을 수행하면 일부 외부 도구 및 기능의 사용이 제한될 수 있습니다.
 
 
 
+[[management-interface]]
 === 관리 인터페이스
 
 SANtricity SMI-S Provider 또는 OnCommand Insight(OCI)와 같이 기존 관리 인터페이스(SYMbol)와 직접 통신하는 도구는 기존 관리 인터페이스 설정이 활성화되어 있지 않으면 작동하지 않습니다. 또한 이 설정이 비활성화된 경우 기존 CLI 명령을 사용하거나 미러링 작업을 수행할 수 없습니다.
@@ -111,6 +118,7 @@ SANtricity SMI-S Provider 또는 OnCommand Insight(OCI)와 같이 기존 관리 
 
 
 
+[[saml-authentication]]
 === SAML 인증
 
 SAML이 활성화된 경우 다음 클라이언트는 스토리지 어레이 서비스 및 리소스에 액세스할 수 없습니다.
@@ -127,12 +135,14 @@ SAML이 활성화된 경우 다음 클라이언트는 스토리지 어레이 서
 
 
 
+[[what-do-i-need-to-know-before-configuring-and-enabling-saml]]
 == SAML을 구성하고 활성화하기 전에 알아야 할 사항은 무엇입니까?
 
 인증을 위해 SAML(Security Assertion Markup Language) 기능을 구성하고 활성화하기 전에 다음 요구 사항을 충족하고 SAML 제한 사항을 이해해야 합니다.
 
 
 
+[[requirements]]
 === 요구 사항
 
 시작하기 전에 다음을 확인하십시오.
@@ -147,6 +157,7 @@ SAML이 활성화된 경우 다음 클라이언트는 스토리지 어레이 서
 
 
 
+[[restrictions]]
 === 제한 사항
 
 위의 요구 사항 외에도 다음과 같은 제한 사항을 반드시 숙지하십시오.
@@ -168,6 +179,7 @@ SAML이 활성화된 경우 다음 클라이언트는 스토리지 어레이 서
 
 
 
+[[what-types-of-events-are-recorded-in-the-audit-log]]
 == 감사 로그에 어떤 유형의 이벤트가 기록됩니까?
 
 감사 로그는 수정 이벤트 또는 수정 및 읽기 전용 이벤트를 모두 기록할 수 있습니다.
@@ -180,6 +192,7 @@ SAML이 활성화된 경우 다음 클라이언트는 스토리지 어레이 서
 
 
 
+[[what-do-i-need-to-know-before-configuring-a-syslog-server]]
 == syslog 서버를 구성하기 전에 무엇을 알아야 합니까?
 
 감사 로그를 외부 syslog 서버에 보관할 수 있습니다.
@@ -195,6 +208,7 @@ syslog 서버를 구성하기 전에 다음 지침을 염두에 두십시오.
 
 
 
+[[the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do]]
 == syslog 서버가 더 이상 감사 로그를 수신하지 않습니다. 어떻게 해야 하나요?
 
 TLS 프로토콜을 사용하여 syslog 서버를 구성한 경우, 어떤 이유로든 인증서가 무효화되면 서버는 메시지를 수신할 수 없습니다. 유효하지 않은 인증서에 대한 오류 메시지가 감사 로그에 게시됩니다.

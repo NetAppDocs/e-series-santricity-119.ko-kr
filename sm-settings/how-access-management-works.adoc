@@ -52,6 +52,7 @@ Access Management는 SANtricity System Manager에서 사용자 인증을 설정�
 
 
 
+[[tasks-available-in-system-manager]]
 == System Manager에서 사용 가능한 작업
 
 작업에 대한 액세스는 사용자에게 할당된 역할에 따라 달라지며, 역할에는 다음이 포함됩니다.
@@ -66,6 +67,7 @@ Access Management는 SANtricity System Manager에서 사용자 인증을 설정�
 
 
 
+[[limitations-in-unified-manager-and-storage-manager]]
 == Unified Manager 및 Storage Manager의 제한 사항
 
 스토리지 어레이에 SAML이 구성된 경우 사용자는 Unified Manager 또는 레거시 Storage Manager 인터페이스에서 해당 어레이의 스토리지를 검색하거나 관리할 수 없습니다.

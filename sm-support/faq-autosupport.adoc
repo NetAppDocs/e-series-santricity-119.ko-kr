@@ -16,6 +16,7 @@ summary: 이 FAQ는 질문에 대한 빠른 답변을 찾고 있을 때 도움�
 
 
 
+[[what-data-am-i-collecting]]
 == 어떤 데이터를 수집하고 있습니까?
 
 AutoSupport 기능과 수동 지원 데이터 수집 기능은 기술 지원 팀의 원격 문제 해결 및 문제 분석을 위해 고객 지원 번들에서 데이터를 수집하는 방법을 제공합니다.
@@ -24,6 +25,7 @@ AutoSupport 기능과 수동 지원 데이터 수집 기능은 기술 지원 팀
 
 
 
+[[what-does-unreadable-sectors-data-show-me]]
 == 읽을 수 없는 섹터 데이터는 무엇을 보여줍니까?
 
 스토리지 어레이의 드라이브에서 감지된 읽을 수 없는 섹터에 대한 자세한 데이터를 표시할 수 있습니다.
@@ -104,6 +106,7 @@ AutoSupport 기능과 수동 지원 데이터 수집 기능은 기술 지원 팀
 |===
 
 
+[[what-is-a-health-image]]
 == 상태 이미지란 무엇입니까?
 
 상태 이미지는 컨트롤러 프로세서 메모리의 원시 데이터 덤프로, 기술 지원 부서에서 컨트롤러의 문제를 진단하는 데 사용할 수 있습니다.
@@ -112,6 +115,7 @@ AutoSupport 기능과 수동 지원 데이터 수집 기능은 기술 지원 팀
 
 
 
+[[what-do-the-autosupport-features-do]]
 == AutoSupport 기능은 어떤 역할을 하나요?
 
 AutoSupport 기능은 세 가지 개별 기능으로 구성되어 있으며, 각 기능은 별도로 활성화해야 합니다.
@@ -123,6 +127,7 @@ AutoSupport 기능은 세 가지 개별 기능으로 구성되어 있으며, 각
 
 
 
+[[what-type-of-data-is-collected-through-the-autosupport-feature]]
 == AutoSupport 기능을 통해 어떤 유형의 데이터가 수집됩니까?
 
 AutoSupport 기능에는 이벤트 디스패치, 예약된 디스패치, 온디맨드 및 원격 진단 디스패치의 세 가지 표준 디스패치 유형이 포함되어 있습니다.
@@ -157,6 +162,7 @@ AutoSupport 기능은 정기적인 일정에 따라 여러 건의 지원 요청�
 
 
 
+[[how-do-i-configure-the-delivery-method-for-the-autosupport-feature]]
 == AutoSupport 기능의 전달 방식을 어떻게 설정하나요?
 
 AutoSupport 기능은 HTTPS 및 SMTP 프로토콜을 지원하여 AutoSupport 발송을 기술 지원에 전달합니다.
@@ -213,6 +219,7 @@ AutoSupport 기능은 HTTPS 및 SMTP 프로토콜을 지원하여 AutoSupport �
 
 
 
+[[what-is-configuration-data]]
 == 구성 데이터란 무엇입니까?
 
 구성 데이터 수집을 선택하면 시스템이 RAID 구성 데이터베이스의 현재 상태를 저장합니다.
@@ -221,6 +228,7 @@ RAID 구성 데이터베이스에는 컨트롤러의 볼륨 그룹 및 디스크
 
 
 
+[[what-do-i-need-to-know-before-upgrading-the-santricity-os-software]]
 == SANtricity OS 소프트웨어를 업그레이드하기 전에 알아야 할 사항은 무엇입니까?
 
 컨트롤러의 소프트웨어 및 펌웨어를 업그레이드하기 전에 다음 사항에 유의하십시오.
@@ -268,6 +276,7 @@ CAUTION: 업그레이드가 진행되는 동안 스토리지 어레이를 변경
 
 
 
+[[what-do-i-need-to-know-before-suspending-iom-auto-synchronization]]
 == IOM 자동 동기화를 일시 중단하기 전에 알아야 할 사항은 무엇입니까?
 
 IOM 자동 동기화를 일시 중단하면 다음번 SANtricity OS 컨트롤러 소프트웨어 업그레이드 시 IOM 펌웨어가 업그레이드되지 않습니다.
@@ -276,6 +285,7 @@ IOM 자동 동기화를 일시 중단하면 다음번 SANtricity OS 컨트롤러
 
 
 
+[[why-is-my-firmware-upgrade-progressing-so-slowly]]
 == 펌웨어 업그레이드가 왜 이렇게 느리게 진행됩니까?
 
 펌웨어 업그레이드 진행 속도는 시스템의 전체 부하에 따라 달라집니다.
@@ -284,6 +294,7 @@ IOM 자동 동기화를 일시 중단하면 다음번 SANtricity OS 컨트롤러
 
 
 
+[[what-do-i-need-to-know-before-upgrading-drive-firmware]]
 == 드라이브 펌웨어를 업그레이드하기 전에 알아야 할 사항은 무엇입니까?
 
 드라이브 펌웨어를 업그레이드하기 전에 다음 사항에 유의하십시오.
@@ -298,6 +309,7 @@ IOM 자동 동기화를 일시 중단하면 다음번 SANtricity OS 컨트롤러
 
 
 
+[[how-do-i-choose-which-type-of-upgrade-to-perform]]
 == 어떤 유형의 업그레이드를 수행할지 선택하려면 어떻게 해야 합니까?
 
 풀 또는 볼륨 그룹의 상태에 따라 드라이브에 수행할 업그레이드 유형을 선택합니다.
