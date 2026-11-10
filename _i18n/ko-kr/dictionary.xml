@@ -5908,7 +5908,6 @@
   <block id="945ae7820c24188a29edbd29e427962f" category="paragraph">용량 확장(용량 추가)</block>
   <block id="bd3fd623256db562bebda3e697d43452" category="paragraph">용량 감소</block>
   <block id="dca785ddf6462cb2ce8d0332432fef85" category="paragraph">혼합 드라이브 유형(HDD, SSD)은 풀 또는 볼륨 그룹에서 지원되지 않습니다.</block>
-  <block id="28777dded0f4b7a62c3138973e35582c" category="summary">용량 감소 옵션을 사용하여 스냅샷 그룹, 스냅샷 볼륨 및 일관성 그룹 멤버 볼륨과 같은 스토리지 객체의 예약 용량을 줄일 수 있습니다. 예약 용량은 증가시킨 용량만큼만 줄일 수 있습니다.</block>
   <block id="37e9db9b7a1415532978e5e59b0e1792" category="doc">SANtricity System Manager에서 예약된 용량을 줄입니다</block>
   <block id="115acc53492ff3d71c7e0717c01220a6" category="paragraph">용량 감소 옵션을 사용하여 스냅샷 그룹, 스냅샷 볼륨 및 일관성 그룹 멤버 볼륨과 같은 스토리지 객체의 예약 용량을 줄일 수 있습니다. 예약 용량은 증가시킨 용량만큼만 줄일 수 있습니다.</block>
   <block id="1d76cca7e5eb092d02723fdb9a2c1272" category="list-text">스토리지 객체에는 예약된 용량 볼륨이 두 개 이상 포함되어야 합니다.</block>
@@ -9049,4 +9048,9 @@
   <block id="24c9cd56861c16e2290412c4fe4d5a8f" category="list-text">IOM12C - v0112</block>
   <block id="818d5ca9647738ea76069fc99cf59499" category="list-text">IOM12G - v0212</block>
   <block id="9133a8b23ddd677242ee6747a18b0e24" category="list-text">DCM3 - v01.12.09.02</block>
+  <block id="fb2a0888f91c24b63218fe88807bbba3" category="summary">컨트롤러는 온라인, 오프라인, 서비스 모드의 세 가지 상태로 설정할 수 있습니다.</block>
+  <block id="49390b5788f909c095a9221fc5028cc6" category="summary">볼륨에 대해 용량 증가, 삭제, 복사, 초기화, 재배포, 소유권 변경, 캐시 설정 변경, 미디어 스캔 설정 변경 등 다양한 작업을 수행할 수 있습니다.</block>
+  <block id="5fde626ba0e89d16805ea6acf1d0ad24" category="summary">용량 감소 옵션을 사용하여 스냅샷 그룹, 스냅샷 볼륨 및 일관성 그룹 멤버 볼륨에 대해 예약된 용량을 줄일 수 있습니다. 예약된 용량은 증가시킨 용량만큼만 줄일 수 있습니다.</block>
+  <block id="9587f27e2d9da9b950f8b3a7d00fbad9" category="section-title">버전 11.90R7의 새로운 기능</block>
+  <block id="7e2382649b16a571eb0ec2a8e1b78824" category="paragraph">이 버전에는 버그 수정 사항만 포함되어 있으며 새로운 기능은 추가되지 않았습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 E-Series SANtricity OS 11.90R7 README를 참조하십시오.</block>
 </blocks>
